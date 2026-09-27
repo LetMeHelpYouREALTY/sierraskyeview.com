@@ -1,11 +1,16 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 
+const SITE_URL = "https://www.sierraskyeview.com";
+const ORGANIZATION_ID = `${SITE_URL}/#organization`;
+const REAL_ESTATE_AGENT_ID = `${SITE_URL}/#realestateagent`;
+
 const ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate",
-  "url": "https://www.sierraskyeview.com",
-  "logo": "https://www.sierraskyeview.com/favicon.ico",
+  "@id": ORGANIZATION_ID,
+  "name": "Sierra at Skyeview Homes",
+  "url": SITE_URL,
+  "logo": `${SITE_URL}/favicon.ico`,
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-702-903-4687",
@@ -18,28 +23,44 @@ const ORGANIZATION_SCHEMA = {
 const WEBSITE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate",
-  "url": "https://www.sierraskyeview.com",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
-  }
+  "name": "Sierra at Skyeview Homes",
+  "url": SITE_URL,
+  "publisher": { "@id": ORGANIZATION_ID }
 };
 
-const PERSON_SCHEMA = {
+const REAL_ESTATE_AGENT_SCHEMA = {
   "@context": "https://schema.org",
-  "@type": "Person",
+  "@type": "RealEstateAgent",
+  "@id": REAL_ESTATE_AGENT_ID,
   "name": "Dr. Jan Duffy",
-  "image": "https://www.sierraskyeview.com/design%2004_new%202.jpg",
+  "description":
+    "Buyer's agent for Sierra at Skyeview new construction homes in Skye Canyon, Northwest Las Vegas.",
+  "image": `${SITE_URL}/design%2004_new%202.jpg`,
   "jobTitle": "Buyer's Agent & New Home Construction Specialist",
-  "url": "https://www.sierraskyeview.com/about",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
+  "url": `${SITE_URL}/about`,
+  "worksFor": { "@id": ORGANIZATION_ID },
+  "telephone": "+1-702-903-4687",
+  "email": "DrDuffy@SierraSkyeview.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "8925 Vanhoy Creek St.",
+    "addressLocality": "Las Vegas",
+    "addressRegion": "NV",
+    "postalCode": "89166",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "36.2565",
+    "longitude": "-115.2848"
   },
   "areaServed": {
     "@type": "City",
-    "name": "Las Vegas"
+    "name": "Las Vegas",
+    "containedInPlace": {
+      "@type": "State",
+      "name": "Nevada"
+    }
   },
   "knowsAbout": [
     "Sierra at Skyeview Homes",
@@ -53,52 +74,26 @@ const PERSON_SCHEMA = {
     "contactType": "sales",
     "areaServed": "US",
     "availableLanguage": "English"
-  }
-};
-
-const LOCAL_BUSINESS_SCHEMA = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate",
-  "description": "New construction homes in Skye Canyon, Northwest Las Vegas. Expert buyer representation from Dr. Jan Duffy.",
-  "url": "https://www.sierraskyeview.com",
-  "telephone": "+1-702-903-4687",
-  "email": "DrDuffy@SierraSkyeview.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "8925 Vanhoy Creek St.",
-    "addressLocality": "Las Vegas",
-    "addressRegion": "NV",
-    "postalCode": "89166",
-    "addressCountry": "US"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "36.2844",
-    "longitude": "-115.3153"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "Las Vegas",
-    "containedInPlace": {
-      "@type": "State",
-      "name": "Nevada"
-    }
-  },
-  "priceRange": "$$",
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "opens": "10:00",
-    "closes": "18:00"
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Sierra at Skyeview Homes",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "House",
+          "name": "1,602 sq ft Homes",
+          "floorSize": "1602 sq ft",
+          "numberOfRooms": "3 bedrooms, 2.5 bathrooms",
+          "offers": {
+            "@type": "Offer",
+            "price": "419990",
+            "priceCurrency": "USD"
+          }
+        }
+      }
+    ]
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -106,8 +101,7 @@ const LOCAL_BUSINESS_SCHEMA = {
     "reviewCount": "6",
     "bestRating": "5",
     "worstRating": "1"
-  },
-  "image": "https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg"
+  }
 };
 
 class MyDocument extends Document {
@@ -186,9 +180,9 @@ class MyDocument extends Document {
           
           <meta
             name="description"
-            content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston, guided by Buyer's Agent Dr. Jan Duffy."
+            content="New construction at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas (89166). Buyer representation from Dr. Jan Duffy, Nevada REALTOR."
           />
-          <meta property="og:site_name" content="Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate" />
+          <meta property="og:site_name" content="Sierra at Skyeview Homes" />
           <meta
             property="og:description"
             content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston with expert guidance from Dr. Jan Duffy."
@@ -210,11 +204,7 @@ class MyDocument extends Document {
           />
           <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(PERSON_SCHEMA) }}
-          />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(LOCAL_BUSINESS_SCHEMA) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(REAL_ESTATE_AGENT_SCHEMA) }}
           />
         </Head>
         <body className="bg-black antialiased">
