@@ -46,6 +46,12 @@ const createSitemap = () => {
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.sierraskyeview.com/amenities</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.sierraskyeview.com/new-build-homes</loc>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>

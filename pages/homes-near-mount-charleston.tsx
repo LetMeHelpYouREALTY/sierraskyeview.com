@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import NearbyAmenitiesSection from "../components/NearbyAmenitiesSection";
 import { useState, useEffect } from "react";
 
 const HomesNearMountCharleston: NextPage = () => {
@@ -141,6 +142,7 @@ const HomesNearMountCharleston: NextPage = () => {
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
               <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Available Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Skye Canyon Guide</Link>
+              <Link href="/amenities" className="text-gray-700 hover:text-blue-600 font-medium">Nearby Amenities</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
               <Link href="/new-build-homes" className="text-gray-700 hover:text-blue-600 font-medium">New Construction</Link>
@@ -313,6 +315,8 @@ const HomesNearMountCharleston: NextPage = () => {
             </div>
           </div>
         </section>
+
+        <NearbyAmenitiesSection compact heading="Life Near Mount Charleston & Skye Canyon Amenities" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">
