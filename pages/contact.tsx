@@ -4,6 +4,9 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 
+const CONTACT_ERROR_MESSAGE =
+  "Sorry, something went wrong sending your message. Please call or text Dr. Jan Duffy at (702) 903-4687.";
+
 const Contact: NextPage = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -11,11 +14,39 @@ const Contact: NextPage = () => {
     phone: "",
     message: ""
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">(
+    "idle"
+  );
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    alert("Thank you for your message! Dr. Jan Duffy will contact you soon.");
+    setIsSubmitting(true);
+    setSubmitStatus("idle");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          sourceUrl:
+            typeof window !== "undefined" ? window.location.href : undefined,
+        }),
+      });
+
+      if (!response.ok) {
+        setSubmitStatus("error");
+        return;
+      }
+
+      setSubmitStatus("success");
+      setFormData({ name: "", email: "", phone: "", message: "" });
+    } catch {
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -266,6 +297,22 @@ const Contact: NextPage = () => {
               {/* Contact Form */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Send Dr. Jan a Message</h2>
+                {submitStatus === "success" && (
+                  <p
+                    className="mb-4 rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-green-800"
+                    role="status"
+                  >
+                    Thank you for your message! Dr. Jan Duffy will contact you soon.
+                  </p>
+                )}
+                {submitStatus === "error" && (
+                  <p
+                    className="mb-4 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-red-800"
+                    role="alert"
+                  >
+                    {CONTACT_ERROR_MESSAGE}
+                  </p>
+                )}
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -332,9 +379,10 @@ const Contact: NextPage = () => {
                   
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                    disabled={isSubmitting}
+                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:cursor-not-allowed disabled:opacity-70"
                   >
-                    Send Message
+                    {isSubmitting ? "Sending..." : "Send Message"}
                   </button>
                 </form>
               </div>
