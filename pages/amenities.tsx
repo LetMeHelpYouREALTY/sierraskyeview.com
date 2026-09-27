@@ -126,9 +126,8 @@ const AmenitiesPage: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Interactive amenity map</h2>
             <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-              Filter by category to see places near {COMMUNITY.fullAddress}. Map data comes from
-              Google Places when your site API key is configured; otherwise a static map and curated
-              list still load for visitors and search engines.
+              Filter by category to explore featured places near {COMMUNITY.fullAddress}. The map
+              highlights nearby options by category, with a curated list for quick reference.
             </p>
             <AmenityMap compact={false} showCuratedList />
           </div>
@@ -155,8 +154,8 @@ const AmenitiesPage: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-12">Grocery &amp; daily errands</h2>
             <p className="text-gray-700">
               Smith&apos;s Marketplace at 9710 W Skye Canyon Park Dr anchors daily shopping inside
-              the community. Sprouts Farmers Market at Montecito Marketplace adds organic and
-              specialty items along North Durango Drive.
+              the community. A second Smith&apos;s at Montecito Marketplace on North Durango Drive
+              adds another full grocery option a short drive north.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-12">Healthcare &amp; pharmacies</h2>
@@ -175,9 +174,9 @@ const AmenitiesPage: NextPage = () => {
 
             <h2 className="text-3xl font-bold text-gray-900 mt-12">Golf</h2>
             <p className="text-gray-700">
-              Las Vegas Paiute Golf Resort on West Lake Mead Boulevard is a well-known public course
-              northwest of the valley. Several private and resort courses are reachable via US-95
-              toward Summerlin and the Strip corridor.
+              Las Vegas Paiute Golf Resort on Nu Wav Kaiv Boulevard is a public course northwest
+              of the valley (about a 25-minute drive from Skye Canyon). Additional courses are
+              reachable via US-95 toward Summerlin and the Strip corridor.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-12">Schools</h2>

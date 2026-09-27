@@ -4,7 +4,7 @@ import { CURATED_PLACES } from "./curatedAmenities";
 export const AMENITIES_FAQ = [
   {
     question: `What grocery stores are near ${COMMUNITY.name}?`,
-    answer: `Smith's Marketplace at 9710 W Skye Canyon Park Dr anchors Skye Canyon Marketplace about five minutes from ${COMMUNITY.name}, with Sprouts Farmers Market and additional grocers along North Durango Drive in Centennial Hills.`,
+    answer: `Smith's Marketplace at 9710 W Skye Canyon Park Dr anchors Skye Canyon Marketplace about five minutes from ${COMMUNITY.name}, with a second Smith's at Montecito Marketplace and additional retail along North Durango Drive in Centennial Hills.`,
   },
   {
     question: `How far is ${COMMUNITY.name} from the Las Vegas Strip?`,
