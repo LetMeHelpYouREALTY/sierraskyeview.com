@@ -95,8 +95,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview Homes for Sale | New Construction Northwest Las Vegas 89166</title>
-        <meta name="description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $420,240 located in Skye Canyon near Mount Charleston, zip code 89166. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy. Quick move-in homes available now." />
+        <title>Sierra at Skyeview Homes | Skye Canyon, NV</title>
+        <meta name="description" content="New construction at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas (89166). Buyer representation from Dr. Jan Duffy, Nevada REALTOR." />
         <meta name="keywords" content="Sierra at Skyeview Homes for sale, new construction Northwest Las Vegas, Skye Canyon homes, 89166 homes for sale, Mount Charleston area homes, realtor service when buying a new home, buyer's agent Sierra at Skyeview, Dr. Jan Duffy, Northwest Las Vegas new construction" />
         <meta property="og:title" content="Sierra at Skyeview Homes for Sale | New Construction Northwest Las Vegas" />
         <meta property="og:description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $420,240 located in Skye Canyon near Mount Charleston. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
@@ -138,70 +138,6 @@ const Home: NextPage = () => {
                   "item": "https://www.sierraskyeview.com/"
                 }
               ]
-            })
-          }}
-        />
-        
-        {/* Local Business Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Northwest Las Vegas, Skye Canyon near Mount Charleston",
-              "url": "https://www.sierraskyeview.com",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "36.2565",
-                "longitude": "-115.2848"
-              },
-              "areaServed": {
-                "@type": "City",
-                "name": "Las Vegas",
-                "containedInPlace": {
-                  "@type": "State",
-                  "name": "Nevada"
-                }
-              },
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Sierra at Skyeview Homes",
-                "itemListElement": [
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "House",
-                      "name": "1,602 sq ft Homes",
-                      "floorSize": "1602 sq ft",
-                      "numberOfRooms": "3 bedrooms, 2.5 bathrooms",
-                      "offers": {
-                        "@type": "Offer",
-                        "price": "419990",
-                        "priceCurrency": "USD"
-                      }
-                    }
-                  }
-                ]
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "6",
-                "bestRating": "5",
-                "worstRating": "1"
-              }
             })
           }}
         />
