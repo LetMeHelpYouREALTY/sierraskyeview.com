@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import NearbyAmenitiesSection from "../components/NearbyAmenitiesSection";
 
 const heroSlides = [
     {
@@ -220,6 +221,7 @@ const Home: NextPage = () => {
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
               <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Available Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Skye Canyon Guide</Link>
+              <Link href="/amenities" className="text-gray-700 hover:text-blue-600 font-medium">Nearby Amenities</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
               <Link href="/new-build-homes" className="text-gray-700 hover:text-blue-600 font-medium">New Construction</Link>
@@ -508,6 +510,8 @@ const Home: NextPage = () => {
           </div>
         </section>
 
+        <NearbyAmenitiesSection heading="What's Nearby Sierra at Skyeview Homes" />
+
         {/* Breadcrumb Navigation */}
         <section className="bg-gray-50 py-4">
           <div className="max-w-7xl mx-auto px-4">
@@ -754,6 +758,7 @@ const Home: NextPage = () => {
               <div className="space-y-3">
                 <Link href="/floor-plans" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Available Homes</Link>
                 <Link href="/community" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Guide</Link>
+                <Link href="/amenities" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Nearby Amenities</Link>
                 <Link href="/services" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer Representation Services</Link>
                 <Link href="/qa" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer FAQs</Link>
               </div>
