@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 
 const SITE_URL = "https://www.sierraskyeview.com";
 const ORGANIZATION_ID = `${SITE_URL}/#organization`;
@@ -15,7 +16,7 @@ const ORGANIZATION_SCHEMA = {
     "@type": "ContactPoint",
     "telephone": "+1-702-903-4687",
     "contactType": "customer service",
-    "areaServed": "US",
+    "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
     "availableLanguage": ["English"]
   }
 };
@@ -54,14 +55,7 @@ const REAL_ESTATE_AGENT_SCHEMA = {
     "latitude": "36.2565",
     "longitude": "-115.2848"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "Las Vegas",
-    "containedInPlace": {
-      "@type": "State",
-      "name": "Nevada"
-    }
-  },
+  "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
   "knowsAbout": [
     "Sierra at Skyeview Homes",
     "Skye Canyon new construction",
@@ -72,7 +66,7 @@ const REAL_ESTATE_AGENT_SCHEMA = {
     "@type": "ContactPoint",
     "telephone": "+1-702-903-4687",
     "contactType": "sales",
-    "areaServed": "US",
+    "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
     "availableLanguage": "English"
   },
   "hasOfferCatalog": {
@@ -88,19 +82,12 @@ const REAL_ESTATE_AGENT_SCHEMA = {
           "numberOfRooms": "3 bedrooms, 2.5 bathrooms",
           "offers": {
             "@type": "Offer",
-            "price": "419990",
+            "price": "436990",
             "priceCurrency": "USD"
           }
         }
       }
     ]
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "6",
-    "bestRating": "5",
-    "worstRating": "1"
   }
 };
 

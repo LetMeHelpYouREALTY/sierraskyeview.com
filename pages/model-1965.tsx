@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 
 const Model1965: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -160,11 +161,7 @@ const Model1965: NextPage = () => {
                   "name": "Dr. Jan Duffy"
                 }
               },
-              "areaServed": {
-                "@type": "City",
-                "name": "Las Vegas",
-                "sameAs": "https://en.wikipedia.org/wiki/Las_Vegas"
-              },
+              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
               "location": {
                 "@type": "Place",
                 "name": "Sierra at Skyeview",

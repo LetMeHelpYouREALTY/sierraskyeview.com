@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 
 const Community: NextPage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -91,14 +92,7 @@ const Community: NextPage = () => {
                 "latitude": "36.2844",
                 "longitude": "-115.3153"
               },
-              "areaServed": {
-                "@type": "City",
-                "name": "Las Vegas",
-                "containedInPlace": {
-                  "@type": "State",
-                  "name": "Nevada"
-                }
-              }
+              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED
             })
           }}
         />

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 
 const Services: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -82,10 +83,7 @@ const Services: NextPage = () => {
         "provider": {
           "@type": "LocalBusiness",
           "name": "Dr. Jan Duffy Real Estate",
-          "areaServed": {
-            "@type": "City",
-            "name": "Las Vegas"
-          },
+          "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
           "serviceArea": {
             "@type": "AdministrativeArea",
             "name": "Nevada"
@@ -140,14 +138,7 @@ const Services: NextPage = () => {
                 "latitude": "36.2565",
                 "longitude": "-115.2848"
               },
-              "areaServed": {
-                "@type": "City",
-                "name": "Las Vegas",
-                "containedInPlace": {
-                  "@type": "State",
-                  "name": "Nevada"
-                }
-              },
+              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
               "knowsAbout": [
                 "Sierra at Skyeview Homes",
                 "Realtor service when buying a new home",

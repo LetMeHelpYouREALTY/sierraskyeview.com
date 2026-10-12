@@ -7,7 +7,7 @@ import Image from "next/image";
 const heroSlides = [
     {
       title: "Sierra at Skyeview Homes - Luxury New Homes in Skye Canyon",
-      subtitle: "Now Selling! Starting at $420,240 - Luxury Homes in Gated Community",
+      subtitle: "Now selling — new homes from $439,000 in this gated Skye Canyon community",
       description: "Expert Guidance from Dr. Jan Duffy | Buyer's Agent for Sierra at Skyeview Homes",
       image: "/9026-rimerton-street-exterior.jpg"
     },
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
         <meta name="description" content="New construction at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas (89166). Buyer representation from Dr. Jan Duffy, Nevada REALTOR." />
         <meta name="keywords" content="Sierra at Skyeview Homes for sale, new construction Northwest Las Vegas, Skye Canyon homes, 89166 homes for sale, Mount Charleston area homes, realtor service when buying a new home, buyer's agent Sierra at Skyeview, Dr. Jan Duffy, Northwest Las Vegas new construction" />
         <meta property="og:title" content="Sierra at Skyeview Homes for Sale | New Construction Northwest Las Vegas" />
-        <meta property="og:description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $420,240 located in Skye Canyon near Mount Charleston. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta property="og:description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New two-story homes in Skye Canyon (89166) with buyer representation from Dr. Jan Duffy." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@DrJanSells" />
         <meta name="twitter:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
-        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $420,240." />
+        <meta name="twitter:description" content="New homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV (89166). Buyer's agent Dr. Jan Duffy." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/" />
         {/* Preload critical hero image for faster Speed Index */}
@@ -163,6 +163,7 @@ const Home: NextPage = () => {
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/blog" className="text-gray-700 hover:text-blue-600 font-medium">Blog</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
+              <Link href="/sell-your-home-to-buy-at-sierra-skyeview" className="text-gray-700 hover:text-blue-600 font-medium">Sell &amp; Buy</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
               <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&amp;A</Link>
             </div>
@@ -213,7 +214,7 @@ const Home: NextPage = () => {
           <div className="relative z-10 max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center text-white">
             <div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Homes for Sale Skye Canyon | New Construction Near Mount Charleston
+                Sierra at Skyeview New Homes
               </h1>
               <p className="text-xl md:text-2xl mb-4">
                 {heroSlides[currentSlide].subtitle}
@@ -692,6 +693,7 @@ const Home: NextPage = () => {
                 <Link href="/community" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Guide</Link>
                 <Link href="/services" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer Representation Services</Link>
                 <Link href="/qa" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer FAQs</Link>
+                <Link href="/sell-your-home-to-buy-at-sierra-skyeview" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Sell to Buy at Sierra</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>
               <div className="space-y-3 text-sm">

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 
 const CONTACT_ERROR_MESSAGE =
   "Sorry, something went wrong sending your message. Please call or text Dr. Jan Duffy at (702) 903-4687.";
@@ -118,14 +119,7 @@ const Contact: NextPage = () => {
                   "closes": "16:00"
                 }
               ],
-              "areaServed": {
-                "@type": "City",
-                "name": "Las Vegas",
-                "containedInPlace": {
-                  "@type": "State",
-                  "name": "Nevada"
-                }
-              }
+              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED
             })
           }}
         />

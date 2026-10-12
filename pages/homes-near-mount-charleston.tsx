@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 
 const HomesNearMountCharleston: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -94,14 +95,7 @@ const HomesNearMountCharleston: NextPage = () => {
       "latitude": "36.2844",
       "longitude": "-115.3153"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Las Vegas",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Nevada"
-      }
-    },
+    "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
     "knowsAbout": [
       "Homes near Mount Charleston",
       "Sierra at Skyeview Homes",
