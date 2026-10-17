@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { CENTURY_COMMUNITIES_SELLER, PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const Model1602: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -69,28 +70,9 @@ const Model1602: NextPage = () => {
             })
           }}
         />
-        {/* RealEstateAgent Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Buyer's agent for 1,602 sq ft homes at Sierra at Skyeview in Northwest Las Vegas",
-              "url": "https://www.sierraskyeview.com/model-1602",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              }
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         {/* FAQ Schema */}
         <script
@@ -154,10 +136,7 @@ const Model1602: NextPage = () => {
                 "priceCurrency": "USD",
                 "lowPrice": "436990",
                 "availability": "https://schema.org/InStock",
-                "seller": {
-                  "@type": "RealEstateAgent",
-                  "name": "Dr. Jan Duffy"
-                }
+                "seller": CENTURY_COMMUNITIES_SELLER
               },
               "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
               "location": {

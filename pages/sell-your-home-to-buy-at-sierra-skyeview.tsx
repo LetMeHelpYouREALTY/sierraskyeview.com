@@ -1,10 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
-
-const SITE_URL = "https://www.sierraskyeview.com";
-const AGENT_ID = `${SITE_URL}/#realestateagent`;
+import { PAGE_AGENT_REFERENCE, SITE_URL } from "../lib/schemaIds";
 const LISTING_CONSULTATION_BASE =
   "https://calendly.com/drjanduffy/listing-consultation?utm_source=sierraskyeview.com&utm_medium=website&utm_content=";
 
@@ -25,20 +22,7 @@ const SellToBuySierra: NextPage = () => {
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "@id": AGENT_ID,
-              name: "Dr. Jan Duffy",
-              description:
-                "Buyer's agent helping sellers coordinate a resale with a new home purchase at Sierra at Skyeview in Skye Canyon, Las Vegas (89166).",
-              url: `${SITE_URL}/sell-your-home-to-buy-at-sierra-skyeview`,
-              telephone: "+1-702-903-4687",
-              email: "DrDuffy@SierraSkyeview.com",
-              areaServed: SIERRA_AT_SKYEVIEW_AREA_SERVED,
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
       </Head>
 

@@ -45,7 +45,7 @@ const BlogPost: NextPage = () => {
                 }
               },
               "datePublished": "2025-01-27",
-              "dateModified": "2025-01-27"
+              "dateModified": "2026-10-17"
             })
           }}
         />

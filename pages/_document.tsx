@@ -1,9 +1,11 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
-
-const SITE_URL = "https://www.sierraskyeview.com";
-const ORGANIZATION_ID = `${SITE_URL}/#organization`;
-const REAL_ESTATE_AGENT_ID = `${SITE_URL}/#realestateagent`;
+import {
+  ORGANIZATION_ID,
+  REAL_ESTATE_AGENT_ID,
+  SITE_URL,
+  WEBSITE_ID,
+} from "../lib/schemaIds";
 
 const ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",
@@ -20,8 +22,6 @@ const ORGANIZATION_SCHEMA = {
     "availableLanguage": ["English"]
   }
 };
-
-const WEBSITE_ID = `${SITE_URL}/#website`;
 
 const WEBSITE_SCHEMA = {
   "@context": "https://schema.org",
@@ -65,6 +65,20 @@ const REAL_ESTATE_AGENT_SCHEMA = {
     "Las Vegas real estate",
     "Buyer's agent representation"
   ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "10:00",
+    "closes": "18:00"
+  },
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-702-903-4687",

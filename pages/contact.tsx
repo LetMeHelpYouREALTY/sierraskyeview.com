@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
-import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const CONTACT_ERROR_MESSAGE =
   "Sorry, something went wrong sending your message. Please call or text Dr. Jan Duffy at (702) 903-4687.";
@@ -77,51 +77,7 @@ const Contact: NextPage = () => {
         {/* Contact Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas",
-              "url": "https://www.sierraskyeview.com",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "36.2565",
-                "longitude": "-115.2848"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                  "opens": "09:00",
-                  "closes": "18:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Saturday",
-                  "opens": "10:00",
-                  "closes": "16:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Sunday",
-                  "opens": "12:00",
-                  "closes": "16:00"
-                }
-              ],
-              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         {/* Breadcrumb Schema */}
         <script

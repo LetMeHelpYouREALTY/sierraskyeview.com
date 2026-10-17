@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { CENTURY_COMMUNITIES_SELLER, PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const Model1965: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -69,28 +70,9 @@ const Model1965: NextPage = () => {
             })
           }}
         />
-        {/* RealEstateAgent Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Buyer's agent for 1,965 sq ft homes at Sierra at Skyeview in Northwest Las Vegas",
-              "url": "https://www.sierraskyeview.com/model-1965",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              }
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         {/* FAQ Schema */}
         <script
@@ -113,7 +95,7 @@ const Model1965: NextPage = () => {
                   "name": "What makes 1,965 sq ft homes the best choice?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "1,965 sq ft homes are the largest floor plan at Sierra at Skyeview, offering maximum living space. They're perfect for families who want maximum space, luxury features, and premium finishes throughout the home."
+                    "text": "1,965 sq ft homes are the largest floor plan at Sierra at Skyeview, offering maximum living space, luxury features, and premium finishes throughout the home."
                   }
                 },
                 {
@@ -154,10 +136,7 @@ const Model1965: NextPage = () => {
                 "priceCurrency": "USD",
                 "lowPrice": "471990",
                 "availability": "https://schema.org/InStock",
-                "seller": {
-                  "@type": "RealEstateAgent",
-                  "name": "Dr. Jan Duffy"
-                }
+                "seller": CENTURY_COMMUNITIES_SELLER
               },
               "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
               "location": {
@@ -268,7 +247,7 @@ const Model1965: NextPage = () => {
                 Generous Living Spaces and Maximum Comfort
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The 1,965 sq ft homes at Sierra at Skyeview feature generous living spaces that provide maximum comfort and flexibility. The additional square footage compared to smaller models creates more expansive living areas, larger bedrooms, enhanced storage, and more room for entertaining and daily activities. The layout is designed to feel spacious and luxurious while maintaining efficient use of space. This generous design makes the 1,965 sq ft homes ideal for buyers who want maximum space in their Northwest Las Vegas new construction home, whether for large families, home offices, hobbies, or simply the comfort of extra room.
+                The 1,965 sq ft homes at Sierra at Skyeview feature generous living spaces that provide maximum comfort and flexibility. The additional square footage compared to smaller models creates more expansive living areas, larger bedrooms, enhanced storage, and more room for entertaining and daily activities. The layout is designed to feel spacious and luxurious while maintaining efficient use of space—ideal when you want the largest plan at Sierra at Skyeview for a home office, studio space, or simply more room day to day.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -279,10 +258,10 @@ const Model1965: NextPage = () => {
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                Ideal for Large Families and Multi-Generational Living
+                Maximum Square Footage at Sierra at Skyeview
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The 1,965 sq ft homes at Sierra at Skyeview are ideal for large families or those who need space for multi-generational living, home offices, or multiple activities. The three bedrooms provide comfortable accommodation, while the maximum square footage allows for larger bedrooms, more storage, flexible spaces, and room for various lifestyle needs. The layout supports large family life with expansive open living areas for gathering and more private spaces for individual activities. This makes the 1,965 sq ft homes perfect for families seeking new construction homes in Skye Canyon that can accommodate multiple generations, work-from-home needs, or simply the desire for maximum space and comfort.
+                The 1,965 sq ft homes at Sierra at Skyeview are the largest plan in the community—three bedrooms plus expansive living areas, storage, and optional flex space for a home office or guest suite. Dr. Jan Duffy helps you compare lot premiums, structural options, and delivery timelines so you reserve the right homesite in Skye Canyon.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">

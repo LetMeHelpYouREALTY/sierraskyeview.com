@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const NorthwestLasVegasNewHomes: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -74,37 +74,6 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
     ]
   };
 
-  const realEstateAgentSchema = {
-    "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
-    "name": "Dr. Jan Duffy",
-    "description": "Expert buyer's agent specializing in Northwest Las Vegas new construction homes. Realtor service when buying new homes at Sierra at Skyeview in Skye Canyon, zip code 89166.",
-    "url": "https://www.sierraskyeview.com/northwest-las-vegas-new-homes",
-    "telephone": "(702) 903-4687",
-    "email": "DrDuffy@SierraSkyeview.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "8925 Vanhoy Creek St.",
-      "addressLocality": "Las Vegas",
-      "addressRegion": "NV",
-      "postalCode": "89166",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "36.2844",
-      "longitude": "-115.3153"
-    },
-    "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
-    "knowsAbout": [
-      "Northwest Las Vegas new homes",
-      "Sierra at Skyeview Homes",
-      "Skye Canyon Northwest Las Vegas",
-      "Realtor service when buying a new home",
-      "New construction Northwest Las Vegas"
-    ]
-  };
-
   return (
     <>
       <Head>
@@ -119,7 +88,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
         <link rel="canonical" href="https://www.sierraskyeview.com/northwest-las-vegas-new-homes" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(realEstateAgentSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }} />
       </Head>
 
       {/* Navigation */}

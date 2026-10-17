@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { CENTURY_COMMUNITIES_SELLER, PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const Model1708: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -69,28 +70,9 @@ const Model1708: NextPage = () => {
             })
           }}
         />
-        {/* RealEstateAgent Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Buyer's agent for 1,708 sq ft homes at Sierra at Skyeview in Northwest Las Vegas",
-              "url": "https://www.sierraskyeview.com/model-1708",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              }
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         {/* FAQ Schema */}
         <script
@@ -113,7 +95,7 @@ const Model1708: NextPage = () => {
                   "name": "What makes 1,708 sq ft homes different from other floor plans?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "1,708 sq ft homes offer ideal space for families who need more room than 1,602 sq ft but don't need the largest option. They feature premium finishes and smart home technology."
+                    "text": "1,708 sq ft homes add square footage versus the 1,602 plan—extra room for a home office, flex space, or storage. They feature premium finishes and smart home technology."
                   }
                 },
                 {
@@ -154,10 +136,7 @@ const Model1708: NextPage = () => {
                 "priceCurrency": "USD",
                 "lowPrice": "451990",
                 "availability": "https://schema.org/InStock",
-                "seller": {
-                  "@type": "RealEstateAgent",
-                  "name": "Dr. Jan Duffy"
-                }
+                "seller": CENTURY_COMMUNITIES_SELLER
               },
               "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
               "location": {
@@ -268,7 +247,7 @@ const Model1708: NextPage = () => {
                 Thoughtful Design with Additional Space
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The 1,708 sq ft homes at Sierra at Skyeview feature a thoughtful design that provides additional space compared to the 1,602 sq ft model, making them ideal for families who need more room or those who want extra space for home offices, hobbies, or entertaining. The additional square footage is distributed throughout the home, creating more generous bedrooms, larger living areas, and enhanced storage. This thoughtful design ensures the 1,708 sq ft feels spacious and comfortable while maintaining efficient use of space. The layout is particularly well-suited for Northwest Las Vegas living, providing flexibility for various lifestyle needs.
+                The 1,708 sq ft homes at Sierra at Skyeview feature a thoughtful design that provides additional space compared to the 1,602 sq ft model—room for a home office, hobbies, or entertaining without stepping up to the largest plan. The additional square footage is distributed throughout the home, creating more generous bedrooms, larger living areas, and enhanced storage. This thoughtful design ensures the 1,708 sq ft feels spacious and comfortable while maintaining efficient use of space. The layout is particularly well-suited for Northwest Las Vegas living, providing flexibility for various lifestyle needs.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -279,10 +258,10 @@ const Model1708: NextPage = () => {
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                Ideal for Growing Families in Northwest Las Vegas
+                Extra Space for Northwest Las Vegas Living
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The 1,708 sq ft homes at Sierra at Skyeview are ideal for growing families in Northwest Las Vegas who need space for children, home offices, or multi-generational living. The three bedrooms provide comfortable accommodation, while the additional square footage allows for larger bedrooms, more storage, and flexible spaces that can adapt to changing needs. The layout supports family life with open living areas for gathering and more private spaces for individual activities. This makes the 1,708 sq ft homes perfect for families seeking new construction homes in Skye Canyon that can accommodate growth and changing lifestyle needs.
+                The 1,708 sq ft homes at Sierra at Skyeview suit buyers who want more square footage than the 1,602 plan—three bedrooms, flexible bonus space, and open living areas that work for home offices or guests. Dr. Jan Duffy helps you compare elevations, premiums, and delivery dates so the layout matches how you will use the home in Skye Canyon.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -344,7 +323,7 @@ const Model1708: NextPage = () => {
               </div>
               <div>
                 <p className="text-sm text-gray-600 mb-1">Perfect For</p>
-                <p className="text-2xl font-bold text-gray-900">Growing Families</p>
+                <p className="text-2xl font-bold text-gray-900">Flexible Layout</p>
               </div>
             </div>
           </div>

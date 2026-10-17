@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const Services: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -113,41 +114,9 @@ const Services: NextPage = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesStructuredData) }}
         />
-        {/* RealEstateAgent Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Realtor service when buying a new home at Sierra at Skyeview Homes. Expert buyer's agent specializing in new home construction and independent advocacy in Northwest Las Vegas",
-              "url": "https://www.sierraskyeview.com/services",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "36.2565",
-                "longitude": "-115.2848"
-              },
-              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
-              "knowsAbout": [
-                "Sierra at Skyeview Homes",
-                "Realtor service when buying a new home",
-                "New home construction",
-                "Buyer's agent representation",
-                "Skye Canyon real estate"
-              ]
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         {/* Breadcrumb Schema */}
         <script

@@ -16,8 +16,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Dr. Jan Duffy made our home buying experience at Skye Canyon absolutely seamless. Her expertise in new construction and deep market insight gave us insider access to the best lots and pricing. She negotiated upgrades that saved us thousands and guided us through every step. We couldn't be happier with our new home at Skye Canyon!",
       verified: true,
-      floorPlan: "1,965 sq ft",
-      purchasePrice: "$471,990"
+      floorPlan: "1,965 sq ft"
     },
     {
       id: 2,
@@ -27,8 +26,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Working with Dr. Jan Duffy was the best decision we made when buying at Skye Canyon. As our Buyer's Agent, her deep knowledge of Skye Canyon's 3,000+ foot elevation community is unmatched. She showed us comparable Las Vegas communities and helped us understand the true value of living near Mount Charleston. Her buyer representation gave us early access to the best lots and VIP treatment. Highly recommend!",
       verified: true,
-      floorPlan: "1,708 sq ft",
-      purchasePrice: "$451,990"
+      floorPlan: "1,708 sq ft"
     },
     {
       id: 3,
@@ -38,8 +36,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Dr. Jan Duffy's expertise as our Buyer's Agent for new home construction is incredible. She helped us navigate the entire process from lot selection to closing at Skye Canyon. Her buyer representation gave us access to upgrades and incentives we wouldn't have gotten otherwise. Our new home at this premier 3,000+ foot elevation community exceeds our expectations, and Dr. Jan made it all possible.",
       verified: true,
-      floorPlan: "1,602 sq ft",
-      purchasePrice: "$419,990"
+      floorPlan: "1,602 sq ft"
     },
     {
       id: 4,
@@ -49,8 +46,7 @@ const Reviews: NextPage = () => {
       source: "Facebook",
       content: "Dr. Jan Duffy is a true professional. Her guidance through the new home buying process at Skye Canyon was invaluable. She helped us understand the construction timeline, negotiated better terms, and ensured we got the best value. The Skye Canyon location is perfect, and our new home is everything we dreamed of.",
       verified: true,
-      floorPlan: "1,965 sq ft",
-      purchasePrice: "$471,990"
+      floorPlan: "1,965 sq ft"
     },
     {
       id: 5,
@@ -60,8 +56,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Dr. Jan Duffy's focus on Skye Canyon gave us incredible advantages when buying our new home. She secured early access to the best lots, negotiated upgrades, and provided expert guidance throughout the process. Her knowledge of the Las Vegas market and Skye Canyon community is exceptional. We love our new home!",
       verified: true,
-      floorPlan: "1,708 sq ft",
-      purchasePrice: "$451,990"
+      floorPlan: "1,708 sq ft"
     },
     {
       id: 6,
@@ -71,8 +66,7 @@ const Reviews: NextPage = () => {
       source: "Zillow",
       content: "Dr. Jan Duffy made buying our new home at Skye Canyon a breeze. Her expertise in new construction and market knowledge gave us insider information and better pricing. She guided us through lot selection, floor plan choices, and all the details. The Skye Canyon location is amazing, and we couldn't be happier with our decision.",
       verified: true,
-      floorPlan: "1,602 sq ft",
-      purchasePrice: "$419,990"
+      floorPlan: "1,602 sq ft"
     }
   ];
 
@@ -348,9 +342,8 @@ const Reviews: NextPage = () => {
                   <p className="text-gray-700 mb-4 italic">"{review.content}"</p>
                   
                   <div className="border-t pt-4">
-                    <div className="flex justify-between text-sm text-gray-600">
+                    <div className="text-sm text-gray-600">
                       <span><strong>Floor Plan:</strong> {review.floorPlan}</span>
-                      <span><strong>Price:</strong> {review.purchasePrice}</span>
                     </div>
                   </div>
                 </div>

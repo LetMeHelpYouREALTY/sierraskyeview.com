@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const About: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -34,48 +34,9 @@ const About: NextPage = () => {
         <meta name="twitter:description" content="Meet Dr. Jan Duffy, Buyer's Agent for Sierra at Skyeview Homes in Skye Canyon." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/about" />
-        {/* RealEstateAgent Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Realtor service when buying a new home at Sierra at Skyeview Homes. Buyer's agent specializing in new home construction and independent advocacy in Northwest Las Vegas",
-              "url": "https://www.sierraskyeview.com/about",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "image": "https://www.sierraskyeview.com/design%2004_new%202.jpg",
-              "jobTitle": "Buyer's Agent & New Home Construction Specialist",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "36.2565",
-                "longitude": "-115.2848"
-              },
-              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
-              "knowsAbout": [
-                "Sierra at Skyeview Homes",
-                "Realtor service when buying a new home",
-                "New home construction",
-                "Buyer's agent representation",
-                "Skye Canyon real estate",
-                "Northwest Las Vegas real estate"
-              ],
-              "worksFor": {
-                "@type": "Organization",
-                "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
-              }
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         {/* Breadcrumb Schema */}
         <script

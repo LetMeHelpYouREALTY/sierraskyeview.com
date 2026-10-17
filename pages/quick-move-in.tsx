@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const QuickMoveIn: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -57,28 +58,9 @@ const QuickMoveIn: NextPage = () => {
             })
           }}
         />
-        {/* RealEstateAgent Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Expert buyer's agent specializing in quick move-in homes at Sierra at Skyeview. Realtor service when buying new construction homes in Northwest Las Vegas.",
-              "url": "https://www.sierraskyeview.com/quick-move-in",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              }
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         {/* FAQ Schema */}
         <script

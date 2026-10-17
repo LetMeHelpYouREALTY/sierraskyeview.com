@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
-import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
 const Community: NextPage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -67,34 +67,9 @@ const Community: NextPage = () => {
           }}
         />
         
-        {/* RealEstateAgent Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RealEstateAgent",
-              "name": "Dr. Jan Duffy",
-              "description": "Expert buyer's agent specializing in Skye Canyon community homes. Realtor service when buying new construction homes at Sierra at Skyeview in Northwest Las Vegas.",
-              "url": "https://www.sierraskyeview.com/community",
-              "telephone": "(702) 903-4687",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "36.2844",
-                "longitude": "-115.3153"
-              },
-              "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PAGE_AGENT_REFERENCE) }}
         />
         
         {/* FAQ Schema */}
