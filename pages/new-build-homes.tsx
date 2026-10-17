@@ -56,7 +56,7 @@ const NewBuildHomes: NextPage = () => {
         <meta property="og:url" content="https://www.sierraskyeview.com/new-build-homes" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sierra at Skyeview New Construction Homes" />
-        <meta name="twitter:description" content="Sierra at Skyeview new construction homes for sale in Northwest Las Vegas. New build homes with custom options starting at $420,240." />
+        <meta name="twitter:description" content="Sierra at Skyeview new construction homes for sale in Northwest Las Vegas. New build homes with custom options starting at $436,990." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
         <meta name="keywords" content="Sierra at Skyeview new construction, Sierra at Skyeview new build homes, Sierra at Skyeview Homes new construction, realtor service when buying a new home, Sierra at Skyeview 89166, Northwest Las Vegas new construction, homes near Mount Charleston, zip code 89166" />
         <link rel="canonical" href="https://www.sierraskyeview.com/new-build-homes" />
@@ -192,7 +192,7 @@ const NewBuildHomes: NextPage = () => {
             
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                Sierra at Skyeview Homes in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, offers exceptional new construction homes that allow you to build your dream home from the ground up. These new build homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $420,240, featuring modern designs, premium finishes, smart home technology, and customization opportunities. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, these new construction homes provide a unique lifestyle opportunity in Northwest Las Vegas. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, ensuring you get the best lot selection, pricing, and terms for your new construction purchase.
+                Sierra at Skyeview Homes in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, offers exceptional new construction homes that allow you to build your dream home from the ground up. These new build homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $439,000, featuring modern designs, premium finishes, smart home technology, and customization opportunities. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, these new construction homes provide a unique lifestyle opportunity in Northwest Las Vegas. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, ensuring you get the best lot selection, pricing, and terms for your new construction purchase.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">

@@ -22,13 +22,13 @@ const Model1602: NextPage = () => {
   return (
     <>
       <Head>
-        <title>1,602 sq ft Homes for Sale Sierra at Skyeview | Starting $420,240 | Northwest Las Vegas 89166</title>
+        <title>1,602 sq ft Homes for Sale Sierra at Skyeview | Starting $436,990 | Northwest Las Vegas 89166</title>
         <meta
           name="description"
-          content="1,602 sq ft homes for sale at Sierra at Skyeview in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. View live availability, pricing starting at $420,240, incentives, and lot releases. 3 bed, 2.5 bath new construction. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy."
+          content="1,602 sq ft homes for sale at Sierra at Skyeview in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. View live availability, pricing starting at $436,990, incentives, and lot releases. 3 bed, 2.5 bath new construction. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy."
         />
         <meta name="keywords" content="1,602 sq ft homes for sale, Sierra at Skyeview homes, Northwest Las Vegas new construction, Skye Canyon homes, 89166 homes for sale, Mount Charleston area homes, 3 bedroom homes Las Vegas, new construction homes, realtor service when buying a new home" />
-        <meta property="og:title" content="1,602 sq ft Homes for Sale at Sierra at Skyeview | Starting $420,240" />
+        <meta property="og:title" content="1,602 sq ft Homes for Sale at Sierra at Skyeview | Starting $436,990" />
         <meta
           property="og:description"
           content="1,602 sq ft homes for sale at Sierra at Skyeview in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. View real-time availability, pricing, and incentives. 3 bed, 2.5 bath new construction. Expert realtor service when buying a new home."
@@ -37,7 +37,7 @@ const Model1602: NextPage = () => {
         <meta property="og:url" content="https://www.sierraskyeview.com/model-1602" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="1,602 sq ft Homes for Sale at Sierra at Skyeview" />
-        <meta name="twitter:description" content="View 1,602 sq ft new construction homes starting at $420,240 in Skye Canyon, Northwest Las Vegas. Expert buyer representation available." />
+        <meta name="twitter:description" content="View 1,602 sq ft new construction homes starting at $436,990 in Skye Canyon, Northwest Las Vegas. Expert buyer representation available." />
         <link rel="canonical" href="https://www.sierraskyeview.com/model-1602" />
         {/* Breadcrumb Schema */}
         <script
@@ -105,7 +105,7 @@ const Model1602: NextPage = () => {
                   "name": "What is the starting price for 1,602 sq ft homes at Sierra at Skyeview?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "1,602 sq ft homes at Sierra at Skyeview start at $420,240 with 3 bedrooms and 2.5 bathrooms. This two-story home features an open-concept layout and premium finishes."
+                    "text": "1,602 sq ft homes at Sierra at Skyeview start at $436,990 with 3 bedrooms and 2.5 bathrooms. This two-story home features an open-concept layout and premium finishes."
                   }
                 },
                 {
@@ -144,7 +144,7 @@ const Model1602: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "Product",
               "name": "1,602 sq ft Homes at Sierra at Skyeview",
-              "description": "New construction 1,602 sq ft homes for sale at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas. 3 bedrooms, 2.5 bathrooms, starting at $420,240.",
+              "description": "New construction 1,602 sq ft homes for sale at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas. 3 bedrooms, 2.5 bathrooms, starting at $436,990.",
               "brand": {
                 "@type": "Brand",
                 "name": "Sierra at Skyeview"
@@ -152,9 +152,7 @@ const Model1602: NextPage = () => {
               "offers": {
                 "@type": "AggregateOffer",
                 "priceCurrency": "USD",
-                "lowPrice": "420240",
-                "highPrice": "500000",
-                "priceValidUntil": "2025-12-31",
+                "lowPrice": "436990",
                 "availability": "https://schema.org/InStock",
                 "seller": {
                   "@type": "RealEstateAgent",
@@ -215,7 +213,7 @@ const Model1602: NextPage = () => {
                   1,602 sq ft Homes Available
                 </h1>
                 <p className="text-lg text-blue-100 mb-4">
-                  View real-time availability, pricing, and incentives for 1,602 sq ft homes at Sierra at Skyeview. Starting at $420,240 | 3 Bed | 2.5 Bath
+                  View real-time availability, pricing, and incentives for 1,602 sq ft homes at Sierra at Skyeview. starting at $436,990 | 3 Bed | 2.5 Bath
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a href="tel:7029034687" className="btn-primary text-sm px-5 py-2">
@@ -275,7 +273,7 @@ const Model1602: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <p className="text-sm text-gray-600 mb-1">Starting Price</p>
-                <p className="text-2xl font-bold text-gray-900">$420,240</p>
+                <p className="text-2xl font-bold text-gray-900">$436,990</p>
               </div>
               <div>
                 <p className="text-sm text-gray-600 mb-1">Square Feet</p>
@@ -311,7 +309,7 @@ const Model1602: NextPage = () => {
             
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                The 1,602 sq ft homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, represent an exceptional value for buyers seeking new construction homes with modern designs and premium finishes. Starting at $420,240, these homes feature 3 bedrooms and 2.5 bathrooms in a two-story layout that maximizes space and functionality. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, these 1,602 sq ft homes offer a unique lifestyle opportunity in Northwest Las Vegas. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, ensuring you get the best lot selection, pricing, and terms for your 1,602 sq ft home purchase.
+                The 1,602 sq ft homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, represent an exceptional value for buyers seeking new construction homes with modern designs and premium finishes. starting at $436,990, these homes feature 3 bedrooms and 2.5 bathrooms in a two-story layout that maximizes space and functionality. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, these 1,602 sq ft homes offer a unique lifestyle opportunity in Northwest Las Vegas. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, ensuring you get the best lot selection, pricing, and terms for your 1,602 sq ft home purchase.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -368,12 +366,12 @@ const Model1602: NextPage = () => {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               <Link href="/model-1708" className="card p-5 hover:shadow-glow transition-all group">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">1,708 sq ft Homes</h3>
-                <p className="text-gray-600 mb-2">Starting at $429,990 | 3 Bed | 2.5 Bath</p>
+                <p className="text-gray-600 mb-2">Starting at $451,990 | 3 Bed | 2.5 Bath</p>
                 <p className="text-sm text-blue-600 font-semibold">View Available Homes →</p>
               </Link>
               <Link href="/model-1965" className="card p-5 hover:shadow-glow transition-all group">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">1,965 sq ft Homes</h3>
-                <p className="text-gray-600 mb-2">Starting at $449,990 | 3 Bed | 2.5 Bath</p>
+                <p className="text-gray-600 mb-2">Starting at $471,990 | 3 Bed | 2.5 Bath</p>
                 <p className="text-sm text-blue-600 font-semibold">View Available Homes →</p>
               </Link>
             </div>

@@ -38,7 +38,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
     },
     {
       question: "Are there quick move-in homes available in Northwest Las Vegas?",
-      answer: "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $420,240. Dr. Jan Duffy tracks availability and helps buyers secure quick move-in homes with expert buyer representation."
+      answer: "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $439,000. Dr. Jan Duffy tracks availability and helps buyers secure quick move-in homes with expert buyer representation."
     }
   ];
 
@@ -109,7 +109,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
     <>
       <Head>
         <title>Northwest Las Vegas New Homes | Sierra at Skyeview | Skye Canyon 89166</title>
-        <meta name="description" content="Northwest Las Vegas new construction homes at Sierra at Skyeview in Skye Canyon, zip code 89166. New homes starting from $420,240 with premium finishes and elevated living at 3,000+ feet. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta name="description" content="Northwest Las Vegas new construction homes at Sierra at Skyeview in Skye Canyon, zip code 89166. New homes starting from $439,000 with premium finishes and elevated living at 3,000+ feet. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
         <meta name="keywords" content="Northwest Las Vegas new homes, Sierra at Skyeview Homes, new construction Northwest Las Vegas, Skye Canyon 89166, Northwest Las Vegas real estate, realtor service when buying a new home, buyer's agent Northwest Las Vegas" />
         <meta property="og:title" content="Northwest Las Vegas New Homes | Sierra at Skyeview Skye Canyon" />
         <meta property="og:description" content="Discover new construction homes in Northwest Las Vegas at Sierra at Skyeview in Skye Canyon. Elevated living at 3,000+ feet with premium finishes and expert buyer representation from Dr. Jan Duffy." />
@@ -213,7 +213,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
                 Excellent Schools and Family-Friendly Environment
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Northwest Las Vegas is known for its excellent school districts and family-friendly environment. The area features top-rated public and private schools, making it ideal for families with children. Skye Canyon includes neighborhood schools within the master-planned community, providing convenient access to quality education. This focus on education, combined with safe neighborhoods, parks, and recreational facilities, creates an ideal environment for raising families in Northwest Las Vegas.
+                Northwest Las Vegas includes established school zones served by Clark County School District, with several campuses near Skye Canyon. Skye Canyon’s master plan includes parks, trails, and recreation centers. Dr. Jan Duffy can share commute times and school names for specific lots—verify assignments with the district before you close.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -242,7 +242,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
                 New Construction Homes Designed for Northwest Las Vegas Living
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Sierra at Skyeview Homes offers three distinct floor plans designed for Northwest Las Vegas living. The 1,602 sq ft homes start at $420,240, featuring 3 bedrooms and 2.5 bathrooms with an open-concept layout. The 1,708 sq ft homes start at $429,990, offering additional space and flexibility. The 1,965 sq ft homes start at $449,990, providing the most spacious option. Each home features premium finishes, integrated smart home technology, energy-efficient systems optimized for the elevated climate, and designs that maximize natural light and mountain views.
+                Sierra at Skyeview Homes offers three distinct floor plans designed for Northwest Las Vegas living. The 1,602 sq ft homes start at $436,990, featuring 3 bedrooms and 2.5 bathrooms with an open-concept layout. The 1,708 sq ft homes start at $451,990, offering additional space and flexibility. The 1,965 sq ft homes start at $471,990, providing the most spacious option. Each home features premium finishes, integrated smart home technology, energy-efficient systems optimized for the elevated climate, and designs that maximize natural light and mountain views.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">

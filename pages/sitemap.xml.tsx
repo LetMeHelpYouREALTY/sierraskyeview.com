@@ -1,15 +1,18 @@
 import type { GetServerSideProps } from "next";
+import { lastModForPath } from "../lib/contentDates";
 
 const Sitemap = () => null;
 
+const SITE = "https://www.sierraskyeview.com";
+const lm = (path: string) => lastModForPath(path);
+
 const createSitemap = () => {
-  const today = new Date().toISOString().split('T')[0];
   
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.sierraskyeview.com/</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/")}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -35,109 +38,109 @@ const createSitemap = () => {
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/floor-plans</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/floor-plans")}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/community</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/community")}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/new-build-homes</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/new-build-homes")}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/quick-move-in</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/quick-move-in")}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/reviews</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/reviews")}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/services</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/services")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/contact</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/contact")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/sell-your-home-to-buy-at-sierra-skyeview</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/sell-your-home-to-buy-at-sierra-skyeview")}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/about</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/about")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/qa</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/qa")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/mortgage-calculator</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/mortgage-calculator")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/blog</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/blog")}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/blog/complete-guide-buying-new-construction-las-vegas</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/blog/complete-guide-buying-new-construction-las-vegas")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/blog/why-choose-skye-canyon-buyers-guide</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/blog/why-choose-skye-canyon-buyers-guide")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/blog/understanding-hoa-fees-what-to-know</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/blog/understanding-hoa-fees-what-to-know")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/blog/new-construction-vs-resale-which-right-for-you</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/blog/new-construction-vs-resale-which-right-for-you")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/blog/buyers-agent-advantage-independent-representation</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/blog/buyers-agent-advantage-independent-representation")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/model-1602</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/model-1602")}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -148,7 +151,7 @@ const createSitemap = () => {
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/model-1708</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/model-1708")}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -159,7 +162,7 @@ const createSitemap = () => {
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/model-1965</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/model-1965")}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -170,13 +173,13 @@ const createSitemap = () => {
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/homes-near-mount-charleston</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/homes-near-mount-charleston")}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.sierraskyeview.com/northwest-las-vegas-new-homes</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lm("/northwest-las-vegas-new-homes")}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

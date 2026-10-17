@@ -44,7 +44,7 @@ const BlogPost: NextPage = () => {
                 }
               },
               "datePublished": "2025-01-27",
-              "dateModified": "2025-01-27"
+              "dateModified": "2026-10-17"
             })
           }}
         />
@@ -164,7 +164,7 @@ const BlogPost: NextPage = () => {
               Sierra at Skyeview Homes: Luxury Living in Skye Canyon
             </h2>
             <p className="text-white mb-4">
-              Within Skye Canyon, Sierra at Skyeview Homes offers luxury new construction homes starting at $420,240. These two-story homes range from 1,602 to 1,965 square feet and feature:
+              Within Skye Canyon, Sierra at Skyeview Homes offers luxury new construction homes starting at $436,990. These two-story homes range from 1,602 to 1,965 square feet and feature:
             </p>
             <ul className="list-disc pl-6 mb-4 text-white space-y-2">
               <li>Integrated smart home technology</li>
@@ -194,7 +194,7 @@ const BlogPost: NextPage = () => {
               Skye Canyon appeals to a diverse range of buyers:
             </p>
             <ul className="list-disc pl-6 mb-4 text-white space-y-2">
-              <li><strong>Families:</strong> Excellent schools, parks, and family-friendly amenities</li>
+              <li><strong>Outdoor lifestyle:</strong> Parks, trails, and recreation centers across the 1,700-acre master plan</li>
               <li><strong>Professionals:</strong> Easy commute to Las Vegas with elevated living</li>
               <li><strong>Outdoor Enthusiasts:</strong> Proximity to Mount Charleston and extensive trail system</li>
               <li><strong>Retirees:</strong> Active lifestyle amenities and peaceful setting</li>

@@ -38,7 +38,7 @@ const HomesNearMountCharleston: NextPage = () => {
     },
     {
       question: "Are there new construction homes available near Mount Charleston?",
-      answer: "Yes, Sierra at Skyeview Homes offers new construction homes near Mount Charleston in Skye Canyon, Northwest Las Vegas. These homes are available in three floor plans: 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft, starting from $420,240. Dr. Jan Duffy provides expert buyer representation and realtor service when buying these new construction homes, ensuring you get the best lot selection, pricing, and terms."
+      answer: "Yes, Sierra at Skyeview Homes offers new construction homes near Mount Charleston in Skye Canyon, Northwest Las Vegas. These homes are available in three floor plans: 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft, starting from $439,000. Dr. Jan Duffy provides expert buyer representation and realtor service when buying these new construction homes, ensuring you get the best lot selection, pricing, and terms."
     }
   ];
 
@@ -235,7 +235,7 @@ const HomesNearMountCharleston: NextPage = () => {
                 New Construction Homes Designed for Elevated Living
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Sierra at Skyeview Homes offers three distinct floor plans designed to take advantage of the elevated location near Mount Charleston. The 1,602 sq ft homes start at $420,240, the 1,708 sq ft homes start at $429,990, and the 1,965 sq ft homes start at $449,990. Each home features premium finishes, smart home technology, and energy-efficient systems optimized for the cooler mountain climate. Large windows and outdoor living spaces are designed to maximize mountain views and natural light.
+                Sierra at Skyeview Homes offers three distinct floor plans designed to take advantage of the elevated location near Mount Charleston. The 1,602 sq ft homes start at $436,990, the 1,708 sq ft homes start at $451,990, and the 1,965 sq ft homes start at $471,990. Each home features premium finishes, smart home technology, and energy-efficient systems optimized for the cooler mountain climate. Large windows and outdoor living spaces are designed to maximize mountain views and natural light.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">

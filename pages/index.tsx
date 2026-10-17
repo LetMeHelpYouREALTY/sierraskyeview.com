@@ -39,7 +39,12 @@ const faqSchemaItems = [
   {
     question: "Are there quick move-in homes?",
     answer:
-      "Yes. 1,602 sq ft homes are available for immediate occupancy and new lots publish weekly. Dr. Jan tracks each release to help you reserve the right elevation and delivery date."
+      "Yes. Quick move-in homes at Sierra at Skyeview publish on a rolling basis. Dr. Jan Duffy tracks Century Communities releases for current pricing and delivery dates."
+  },
+  {
+    question: "What are starting prices at Sierra at Skyeview?",
+    answer:
+      "Century Communities lists Sierra at Skyeview from $439,000. Residence 1602 from $436,990, Residence 1708 from $451,990, and Residence 1965 from $471,990—confirm on the builder site before you offer."
   },
   {
     question: "How does Dr. Jan Duffy help?",
@@ -477,7 +482,7 @@ const Home: NextPage = () => {
                 New Construction Homes with Premium Finishes
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Sierra at Skyeview Homes offers three distinct floor plans designed for modern living. The 1,602 sq ft homes start at $420,240, featuring 3 bedrooms and 2.5 bathrooms with an open-concept layout perfect for families. The 1,708 sq ft homes start at $429,990, offering additional space and flexibility. The 1,965 sq ft homes start at $449,990, providing the most spacious option with premium features throughout. Each home includes integrated smart home technology, premium finishes, energy-efficient systems optimized for the elevated climate, and designs that maximize natural light and mountain views. These new construction homes represent exceptional value for Northwest Las Vegas homebuyers seeking quality, modern living.
+                Sierra at Skyeview Homes offers three distinct floor plans designed for modern living. The 1,602 sq ft homes start at $436,990, with 3 bedrooms and 2.5 bathrooms in an open-concept layout. The 1,708 sq ft homes start at $451,990, offering additional space and flexibility. The 1,965 sq ft homes start at $471,990, providing the most spacious option with premium features throughout. Each home includes integrated smart home technology, premium finishes, energy-efficient systems optimized for the elevated climate, and designs that maximize natural light and mountain views. These new construction homes represent exceptional value for Northwest Las Vegas homebuyers seeking quality, modern living.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -628,7 +633,7 @@ const Home: NextPage = () => {
               <div className="card p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Are there quick move-in homes?</h3>
                 <p className="text-gray-700 mb-4">
-                  Yes! Several <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">quick move-in homes</Link> are available starting from $447,690 with estimated completion dates in December 2024. Browse all <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available homes</Link> and <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction opportunities</Link>.
+                  Yes. <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">Quick move-in homes</Link> at Sierra at Skyeview publish on a rolling basis—Dr. Jan Duffy tracks Century Communities releases so you can compare pricing and delivery dates before you write an offer. Browse <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available homes</Link> and <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction opportunities</Link>.
                 </p>
                 <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 font-semibold">View available homes →</Link>
               </div>

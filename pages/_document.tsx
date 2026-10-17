@@ -21,9 +21,12 @@ const ORGANIZATION_SCHEMA = {
   }
 };
 
+const WEBSITE_ID = `${SITE_URL}/#website`;
+
 const WEBSITE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": WEBSITE_ID,
   "name": "Sierra at Skyeview Homes",
   "url": SITE_URL,
   "publisher": { "@id": ORGANIZATION_ID }

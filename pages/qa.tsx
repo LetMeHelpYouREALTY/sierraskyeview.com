@@ -22,7 +22,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What are the starting prices for homes at Sierra at Skyeview Homes?",
-      answer: "The Sierra at Skyeview Area offers three floor plans starting from $420,240. 1,602 sq ft homes start at $420,240, 1,708 sq ft homes start at $429,990, and 1,965 sq ft homes start at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
+      answer: "The Sierra at Skyeview Area offers three floor plans starting from $439,000. 1,602 sq ft homes start at $436,990, 1,708 sq ft homes start at $451,990, and 1,965 sq ft homes start at $471,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
     },
     {
       question: "Is Skye Canyon a gated community?",
@@ -46,7 +46,7 @@ const QA: NextPage = () => {
     },
     {
       question: "Are there quick move-in homes available at Sierra at Skyeview Homes?",
-      answer: "Yes! The Sierra at Skyeview Area has several quick move-in homes available. Currently available lots include SRA024 (8990 Rimerton ST) at $447,690, SRA015 (9026 Rimerton ST) at $453,940, and SRA017 (9018 Rimerton ST) at $488,290. Estimated completion dates range from November to December 2024."
+      answer: "Yes. Sierra at Skyeview often lists quick move-in homes on a rolling basis. Dr. Jan Duffy monitors Century Communities inventory for current lot numbers, pricing, and estimated completion dates before you commit to an offer."
     },
     {
       question: "What makes Sierra at Skyeview Homes different from other Las Vegas communities?",
