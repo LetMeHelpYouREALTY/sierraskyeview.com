@@ -123,7 +123,7 @@ const SellToBuySierra: NextPage = () => {
             </div>
           </div>
           <p className="text-gray-500 text-sm mt-8 text-center">
-            &copy; 2025 Sierra Skyeview | Homes by Dr. Jan Duffy. Nevada License S.0197614.
+            &copy; 2025 Sierra Skyeview | Homes by Dr. Jan Duffy.<br />Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
         </div>
       </footer>

@@ -426,7 +426,6 @@ const Model1602: NextPage = () => {
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
-                <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
             <div>
@@ -443,7 +442,7 @@ const Model1602: NextPage = () => {
             <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
-                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+                <p className="text-gray-400">Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC</p>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Image
@@ -459,7 +458,6 @@ const Model1602: NextPage = () => {
                     target.style.display = 'none';
                   }}
                 />
-                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>

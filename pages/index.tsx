@@ -545,7 +545,7 @@ const Home: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🎯</div>
                 <h3 className="text-xl font-bold mb-2">Las Vegas Specialist</h3>
-                <p className="text-gray-300">Nevada License S.0197614. Deep knowledge of Skye Canyon and the entire metro area. <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Learn more about Dr. Jan Duffy</Link>.</p>
+                <p className="text-gray-300">In real estate since 1983. Deep knowledge of Skye Canyon and the entire metro area. <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Learn more about Dr. Jan Duffy</Link>.</p>
               </div>
             </div>
           </div>
@@ -720,7 +720,6 @@ const Home: NextPage = () => {
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
-                <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
             <div>
@@ -737,7 +736,7 @@ const Home: NextPage = () => {
             <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
-                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+                <p className="text-gray-400">Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC</p>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Image
@@ -753,7 +752,6 @@ const Home: NextPage = () => {
                     target.style.display = 'none';
                   }}
                 />
-                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>

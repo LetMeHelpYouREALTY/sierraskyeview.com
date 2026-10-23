@@ -292,7 +292,7 @@ const Reviews: NextPage = () => {
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
               <p className="text-lg text-gray-600">
-                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her Nevada real estate license (S.0197614) and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home in the Sierra at Skyeview Area. <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Explore buyer representation services</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today.
+                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her career in real estate since 1983 and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home in the Sierra at Skyeview Area. <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Explore buyer representation services</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today.
               </p>
             </div>
           </div>
@@ -486,7 +486,6 @@ const Reviews: NextPage = () => {
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
-                <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
             <div>
@@ -503,7 +502,7 @@ const Reviews: NextPage = () => {
             <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
-                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+                <p className="text-gray-400">Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC</p>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Image
@@ -519,7 +518,6 @@ const Reviews: NextPage = () => {
                     target.style.display = 'none';
                   }}
                 />
-                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>

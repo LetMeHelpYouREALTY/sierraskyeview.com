@@ -334,6 +334,9 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
               <p className="text-gray-300">8925 Vanhoy Creek St.<br />Las Vegas, NV 89166</p>
             </div>
           </div>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC</p>
+          </div>
         </div>
       </footer>
 

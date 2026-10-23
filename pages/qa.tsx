@@ -66,7 +66,7 @@ const QA: NextPage = () => {
     },
     {
       question: "How does Dr. Jan Duffy help with the home buying process?",
-      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction at Sierra at Skyeview Homes in Skye Canyon. She represents YOUR interests exclusively—not the builder's. With Nevada License S.0197614, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon's unique 3,000+ foot elevation community, proximity to Mount Charleston, and the entire Las Vegas metro area."
+      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction at Sierra at Skyeview Homes in Skye Canyon. She represents YOUR interests exclusively—not the builder's. In real estate since 1983, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon's unique 3,000+ foot elevation community, proximity to Mount Charleston, and the entire Las Vegas metro area."
     },
     {
       question: "What is the highest temperature ever recorded in Las Vegas?",
@@ -293,7 +293,6 @@ const QA: NextPage = () => {
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
-                <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
             <div>
@@ -310,7 +309,7 @@ const QA: NextPage = () => {
             <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
-                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+                <p className="text-gray-400">Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC</p>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Image
@@ -326,7 +325,6 @@ const QA: NextPage = () => {
                     target.style.display = 'none';
                   }}
                 />
-                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>

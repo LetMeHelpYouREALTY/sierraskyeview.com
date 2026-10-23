@@ -11,7 +11,7 @@ const LlmsTxt = () => null;
 
 const buildLlmsTxt = () => `
 # Sierra at Skyeview Homes — buyer resource site
-# Curated by Dr. Jan Duffy, Nevada REALTOR (license S.0197614). Independent buyer's agent; not the builder.
+# Curated by Dr. Jan Duffy, Nevada REALTOR (license S.0197614), in real estate since 1983. Independent buyer's agent; not the builder.
 
 > ${SIERRA_PRICING_SUMMARY}
 > Builder page: ${SIERRA_PRICING_SOURCE}

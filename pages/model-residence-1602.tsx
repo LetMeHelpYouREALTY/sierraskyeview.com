@@ -27,6 +27,9 @@ const ModelResidence1602Redirect = () => {
           </p>
         </div>
       </div>
+      <footer className="bg-gray-900 text-gray-400 py-6 text-center text-sm">
+        <p>Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC</p>
+      </footer>
     </>
   );
 };

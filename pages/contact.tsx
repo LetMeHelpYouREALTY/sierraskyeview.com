@@ -220,7 +220,7 @@ const Contact: NextPage = () => {
                 Why Contact Dr. Jan Duffy for Your New Home Purchase?
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation that protects your interests and ensures you get the best value for your investment. With 20+ years of Las Vegas real estate expertise and deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers navigate the new construction process with confidence. Her realtor service when buying a new home includes early access to the best lots, expert negotiation on pricing and incentives, and guidance throughout construction and closing.
+                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation that protects your interests and ensures you get the best value for your investment. In real estate since 1983, with deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers navigate the new construction process with confidence. Her realtor service when buying a new home includes early access to the best lots, expert negotiation on pricing and incentives, and guidance throughout construction and closing.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -404,8 +404,8 @@ const Contact: NextPage = () => {
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🏆</div>
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-2">License</h3>
-                      <p className="text-gray-600">Nevada License: S.0197614</p>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-2">Experience</h3>
+                      <p className="text-gray-600">In real estate since 1983</p>
                     </div>
                   </div>
                 </div>
@@ -534,7 +534,6 @@ const Contact: NextPage = () => {
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
-                <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
             <div>
@@ -551,7 +550,7 @@ const Contact: NextPage = () => {
             <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
-                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+                <p className="text-gray-400">Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC</p>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Image
@@ -567,7 +566,6 @@ const Contact: NextPage = () => {
                     target.style.display = 'none';
                   }}
                 />
-                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>
