@@ -44,7 +44,7 @@ const BlogPost: NextPage = () => {
                 }
               },
               "datePublished": "2025-01-27",
-              "dateModified": "2026-10-17"
+              "dateModified": "2026-10-26"
             })
           }}
         />
@@ -193,7 +193,7 @@ const BlogPost: NextPage = () => {
               About Sierra at Skyeview Homes
             </h2>
             <p className="text-white mb-4">
-              Sierra at Skyeview Homes offers luxury new construction in <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon</Link>, Northwest Las Vegas. Located at 3,000+ foot elevation, these homes feature cooler temperatures, stunning mountain views, and access to Mount Charleston just 30 minutes away. starting at $436,990, these homes include smart home technology, premium finishes, and energy-efficient features. <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Explore available homes</Link>.
+              Sierra at Skyeview Homes offers luxury new construction in <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon</Link>, Northwest Las Vegas. Located at 3,000+ foot elevation, these homes feature cooler temperatures, stunning mountain views, and access to Mount Charleston just 30 minutes away. Starting at $421,990 (Century Communities pricing as of October 26, 2026; subject to change), these homes include smart home technology, premium finishes, and energy-efficient features. <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Explore available homes</Link>.
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">

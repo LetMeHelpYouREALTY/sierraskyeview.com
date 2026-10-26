@@ -1,9 +1,5 @@
 import type { GetServerSideProps } from "next";
-import {
-  SIERRA_PRICING_AS_OF,
-  SIERRA_PRICING_SOURCE,
-  SIERRA_PRICING_SUMMARY,
-} from "../lib/sierraPricing";
+import { SIERRA_PRICING_AS_OF, SIERRA_PRICING_SOURCE } from "../lib/sierraPricing";
 
 const SITE = "https://www.sierraskyeview.com";
 
@@ -13,7 +9,7 @@ const buildLlmsTxt = () => `
 # Sierra at Skyeview Homes — buyer resource site
 # Curated by Dr. Jan Duffy, Nevada REALTOR (license S.0197614), in real estate since 1983. Independent buyer's agent; not the builder.
 
-> ${SIERRA_PRICING_SUMMARY}
+> Sierra at Skyeview is a Century Communities neighborhood of two-story homes in Skye Canyon, Las Vegas, NV 89166.
 > Builder page: ${SIERRA_PRICING_SOURCE}
 
 ## Contact (NAP)
@@ -32,7 +28,7 @@ const buildLlmsTxt = () => `
 - ${SITE}/about : About Dr. Jan Duffy, buyer's agent
 
 ## Pricing note
-Prices change. As of ${SIERRA_PRICING_AS_OF}, confirm on Century Communities before publishing offers.
+Prices change often, so this file lists none. Site pages show Century Communities pricing as of ${SIERRA_PRICING_AS_OF}, subject to change; confirm current pricing on the builder page above before writing an offer.
 
 ## Crawling
 See ${SITE}/robots.txt for AI crawler allowlist.

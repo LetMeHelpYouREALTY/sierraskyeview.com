@@ -22,7 +22,7 @@ const QuickMoveIn: NextPage = () => {
     <>
       <Head>
         <title>Sierra at Skyeview Quick Move-In Homes | Available Now | Northwest Las Vegas 89166</title>
-        <meta name="description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. New homes ready now starting at $436,990. 1,602 sq ft homes available for immediate occupancy. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta name="description" content="Sierra at Skyeview quick move-in homes in Skye Canyon, Northwest Las Vegas 89166. Compare Century Communities homes and delivery dates with Dr. Jan Duffy." />
         <meta property="og:title" content="Sierra at Skyeview Quick Move-In Homes | Available Now" />
         <meta property="og:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. New construction homes ready for immediate occupancy. Expert realtor service when buying a new home." />
         <meta property="og:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
@@ -30,7 +30,7 @@ const QuickMoveIn: NextPage = () => {
         <meta property="og:url" content="https://www.sierraskyeview.com/quick-move-in" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sierra at Skyeview Quick Move-In Homes | Available Now" />
-        <meta name="twitter:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. New construction homes ready for immediate occupancy starting at $436,990." />
+        <meta name="twitter:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. New construction homes ready for immediate occupancy." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
         <meta name="keywords" content="Sierra at Skyeview quick move-in homes, Sierra at Skyeview Homes available now, homes for sale Northwest Las Vegas ready, realtor service when buying a new home, Sierra at Skyeview 89166, Mount Charleston area homes, Northwest Las Vegas new construction" />
         <link rel="canonical" href="https://www.sierraskyeview.com/quick-move-in" />
@@ -75,7 +75,7 @@ const QuickMoveIn: NextPage = () => {
                   "name": "Are there quick move-in homes available at Sierra at Skyeview?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $439,000. Dr. Jan Duffy tracks availability and helps buyers secure quick move-in homes with expert buyer representation."
+                    "text": "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans. Dr. Jan Duffy tracks availability and helps buyers purchase quick move-in homes with expert buyer representation."
                   }
                 },
                 {
@@ -147,7 +147,7 @@ const QuickMoveIn: NextPage = () => {
             
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                Sierra at Skyeview Homes in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, offers quick move-in homes for buyers who want immediate occupancy without waiting for construction completion. These move-in ready homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $439,000, featuring premium finishes, smart home technology, and access to world-class community amenities. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, helping buyers secure quick move-in homes with the best terms and value.
+                Sierra at Skyeview Homes in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, offers quick move-in homes for buyers who want immediate occupancy without waiting for construction completion. These move-in ready homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $421,990 (Century Communities pricing as of October 26, 2026; subject to change), featuring premium finishes, smart home technology, and access to world-class community amenities. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, helping buyers purchase quick move-in homes with the best terms and value.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -161,7 +161,7 @@ const QuickMoveIn: NextPage = () => {
                 Available Quick Move-In Homes
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Sierra at Skyeview Homes currently offers quick move-in homes in various floor plans, including 1,602 sq ft homes starting at $436,990, 1,708 sq ft homes starting at $451,990, and 1,965 sq ft homes starting at $471,990. Each quick move-in home features premium finishes, integrated smart home technology, energy-efficient systems, and designs that maximize natural light and mountain views. Dr. Jan Duffy's realtor service when buying a new home includes tracking quick move-in availability and helping buyers evaluate these homes for immediate occupancy.
+                Sierra at Skyeview Homes currently offers quick move-in homes in various floor plans. As of October 26, 2026, Century Communities lists the 1,602 sq ft plan from $421,990, the 1,708 sq ft plan from $436,990, and the 1,965 sq ft plan from $456,990; quick move-in prices vary by homesite and are subject to change. Each quick move-in home features premium finishes, integrated smart home technology, energy-efficient systems, and designs that maximize natural light and mountain views. Dr. Jan Duffy's realtor service when buying a new home includes tracking quick move-in availability and helping buyers evaluate these homes for immediate occupancy.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -182,7 +182,7 @@ const QuickMoveIn: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Don't wait months for construction! Discover move-in ready homes in the <Link href="/community" className="text-green-300 hover:text-green-200 underline">Sierra at Skyeview Area, located within Skye Canyon, Las Vegas</Link>. Currently available: <Link href="/model-1602" className="text-green-300 hover:text-green-200 underline">1,602 sq ft homes</Link> starting at $436,990. Get expert guidance from <Link href="/about" className="text-green-300 hover:text-green-200 underline">Dr. Jan Duffy</Link> for new homes available for immediate occupancy. Browse all <Link href="/floor-plans" className="text-green-300 hover:text-green-200 underline">available homes</Link> and <Link href="/new-build-homes" className="text-green-300 hover:text-green-200 underline">new construction opportunities</Link>.
+                Don't wait months for construction! Discover move-in ready homes in the <Link href="/community" className="text-green-300 hover:text-green-200 underline">Sierra at Skyeview Area, located within Skye Canyon, Las Vegas</Link>. Currently available: <Link href="/model-1602" className="text-green-300 hover:text-green-200 underline">1,602 sq ft homes</Link> starting at $421,990 (as of October 26, 2026; subject to change). Get expert guidance from <Link href="/about" className="text-green-300 hover:text-green-200 underline">Dr. Jan Duffy</Link> for new homes available for immediate occupancy. Browse all <Link href="/floor-plans" className="text-green-300 hover:text-green-200 underline">available homes</Link> and <Link href="/new-build-homes" className="text-green-300 hover:text-green-200 underline">new construction opportunities</Link>.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -378,17 +378,18 @@ const QuickMoveIn: NextPage = () => {
                 <div className="space-y-4">
                   <div className="bg-gray-800 rounded-lg p-4">
                     <h4 className="text-lg font-semibold mb-2">1,602 sq ft Homes</h4>
-                    <p className="text-gray-300">3 bed, 2.5 bath - starting from $439,000</p>
+                    <p className="text-gray-300">3 bed, 2.5 bath - starting from $421,990</p>
                   </div>
                   <div className="bg-gray-800 rounded-lg p-4">
                     <h4 className="text-lg font-semibold mb-2">1,708 sq ft Homes</h4>
-                    <p className="text-gray-300">3 bed, 2.5 bath - Starting from $451,990</p>
+                    <p className="text-gray-300">3 bed, 2.5 bath - Starting from $436,990</p>
                   </div>
                   <div className="bg-gray-800 rounded-lg p-4">
                     <h4 className="text-lg font-semibold mb-2">1,965 sq ft Homes</h4>
-                    <p className="text-gray-300">3 bed, 2.5 bath - Starting from $471,990</p>
+                    <p className="text-gray-300">3 bed, 2.5 bath - Starting from $456,990</p>
                   </div>
                 </div>
+                <p className="text-sm text-blue-200 mt-4">Century Communities plan pricing as of October 26, 2026; subject to change.</p>
               </div>
             </div>
           </div>

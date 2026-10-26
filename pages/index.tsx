@@ -7,7 +7,7 @@ import Image from "next/image";
 const heroSlides = [
     {
       title: "Sierra at Skyeview Homes - Luxury New Homes in Skye Canyon",
-      subtitle: "Now selling — new homes from $439,000 in this gated Skye Canyon community",
+      subtitle: "Now selling — new homes from $421,990 (as of October 26, 2026; subject to change)",
       description: "Expert Guidance from Dr. Jan Duffy | Buyer's Agent for Sierra at Skyeview Homes",
       image: "/9026-rimerton-street-exterior.jpg"
     },
@@ -25,6 +25,12 @@ const heroSlides = [
     }
   ];
 
+const startingPriceFaq = {
+  question: "What are starting prices at Sierra at Skyeview?",
+  answer:
+    "As of October 26, 2026, Century Communities lists Residence 1602 from $421,990, Residence 1708 from $436,990, and Residence 1965 from $456,990. Prices are subject to change, so confirm on the builder site before you write an offer."
+};
+
 const faqSchemaItems = [
   {
     question: "What are the HOA fees?",
@@ -41,11 +47,7 @@ const faqSchemaItems = [
     answer:
       "Yes. Quick move-in homes at Sierra at Skyeview publish on a rolling basis. Dr. Jan Duffy tracks Century Communities releases for current pricing and delivery dates."
   },
-  {
-    question: "What are starting prices at Sierra at Skyeview?",
-    answer:
-      "Century Communities lists Sierra at Skyeview from $439,000. Residence 1602 from $436,990, Residence 1708 from $451,990, and Residence 1965 from $471,990—confirm on the builder site before you offer."
-  },
+  startingPriceFaq,
   {
     question: "How does Dr. Jan Duffy help?",
     answer:
@@ -482,7 +484,7 @@ const Home: NextPage = () => {
                 New Construction Homes with Premium Finishes
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Sierra at Skyeview Homes offers three distinct floor plans designed for modern living. The 1,602 sq ft homes start at $436,990, with 3 bedrooms and 2.5 bathrooms in an open-concept layout. The 1,708 sq ft homes start at $451,990, offering additional space and flexibility. The 1,965 sq ft homes start at $471,990, providing the most spacious option with premium features throughout. Each home includes integrated smart home technology, premium finishes, energy-efficient systems optimized for the elevated climate, and designs that maximize natural light and mountain views. These new construction homes represent exceptional value for Northwest Las Vegas homebuyers seeking quality, modern living.
+                Sierra at Skyeview Homes offers three distinct floor plans designed for modern living. The 1,602 sq ft homes start at $421,990, with 3 bedrooms and 2.5 bathrooms in an open-concept layout. The 1,708 sq ft homes start at $436,990, offering additional space and flexibility. The 1,965 sq ft homes start at $456,990, providing the most spacious option with premium features throughout. Prices are from Century Communities as of October 26, 2026, and are subject to change. Each home includes integrated smart home technology, premium finishes, energy-efficient systems optimized for the elevated climate, and designs that maximize natural light and mountain views. These new construction homes represent exceptional value for Northwest Las Vegas homebuyers seeking quality, modern living.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -644,6 +646,12 @@ const Home: NextPage = () => {
                   As your <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Buyer's Agent</Link>, Dr. Jan represents YOUR interests exclusively—not the builder's. She provides expert guidance on the Sierra at Skyeview Area, deep market knowledge of <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's 3,000+ foot elevation community</Link>, and negotiation power focused on protecting your investment. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> and <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">learn more about Dr. Jan Duffy</Link>.
                 </p>
                 <Link href="/about" className="text-blue-600 hover:text-blue-700 font-semibold">Meet Dr. Jan Duffy →</Link>
+              </div>
+
+              <div className="card p-6 md:col-span-2">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{startingPriceFaq.question}</h3>
+                <p className="text-gray-700 mb-4">{startingPriceFaq.answer}</p>
+                <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 font-semibold">Compare floor plans →</Link>
               </div>
             </div>
 

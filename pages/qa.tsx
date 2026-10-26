@@ -22,7 +22,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What are the starting prices for homes at Sierra at Skyeview Homes?",
-      answer: "The Sierra at Skyeview Area offers three floor plans starting from $439,000. 1,602 sq ft homes start at $436,990, 1,708 sq ft homes start at $451,990, and 1,965 sq ft homes start at $471,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
+      answer: "The Sierra at Skyeview Area offers three floor plans. As of October 26, 2026, Century Communities lists 1,602 sq ft homes from $421,990, 1,708 sq ft homes from $436,990, and 1,965 sq ft homes from $456,990; prices are subject to change. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
     },
     {
       question: "Is Skye Canyon a gated community?",

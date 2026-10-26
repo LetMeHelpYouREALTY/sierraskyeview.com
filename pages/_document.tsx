@@ -99,7 +99,7 @@ const REAL_ESTATE_AGENT_SCHEMA = {
           "numberOfRooms": "3 bedrooms, 2.5 bathrooms",
           "offers": {
             "@type": "Offer",
-            "price": "436990",
+            "price": "421990",
             "priceCurrency": "USD"
           }
         }

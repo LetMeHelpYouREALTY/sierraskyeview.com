@@ -170,7 +170,7 @@ const FloorPlans: NextPage = () => {
                     <td className="px-6 py-4 text-center text-gray-700">1,602 sq ft</td>
                     <td className="px-6 py-4 text-center text-gray-700">3</td>
                     <td className="px-6 py-4 text-center text-gray-700">2.5</td>
-                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$436,990</td>
+                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$421,990</td>
                     <td className="px-6 py-4 text-center text-gray-600">First-time buyers, Downsizers</td>
                     <td className="px-6 py-4 text-center">
                       <Link href="/model-1602" className="btn-primary inline-block px-4 py-2 text-sm">
@@ -187,7 +187,7 @@ const FloorPlans: NextPage = () => {
                     <td className="px-6 py-4 text-center text-gray-700">1,708 sq ft</td>
                     <td className="px-6 py-4 text-center text-gray-700">3</td>
                     <td className="px-6 py-4 text-center text-gray-700">2.5</td>
-                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$451,990</td>
+                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$436,990</td>
                     <td className="px-6 py-4 text-center text-gray-600">Growing families</td>
                     <td className="px-6 py-4 text-center">
                       <Link href="/model-1708" className="btn-primary inline-block px-4 py-2 text-sm">
@@ -204,7 +204,7 @@ const FloorPlans: NextPage = () => {
                     <td className="px-6 py-4 text-center text-gray-700">1,965 sq ft</td>
                     <td className="px-6 py-4 text-center text-gray-700">3</td>
                     <td className="px-6 py-4 text-center text-gray-700">2.5</td>
-                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$471,990</td>
+                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$456,990</td>
                     <td className="px-6 py-4 text-center text-gray-600">Maximum space, Luxury</td>
                     <td className="px-6 py-4 text-center">
                       <Link href="/model-1965" className="btn-primary inline-block px-4 py-2 text-sm">
@@ -217,7 +217,7 @@ const FloorPlans: NextPage = () => {
             </div>
             <div className="mt-8 text-center">
               <p className="text-gray-600 mb-4">
-                All prices subject to change. Lot premiums and incentives may apply.
+                Starting prices from Century Communities as of October 26, 2026; all prices subject to change. Lot premiums and incentives may apply.
               </p>
               <Link href="/services" className="text-blue-600 hover:text-blue-700 font-semibold">
                 Learn about realtor service when buying a new home →

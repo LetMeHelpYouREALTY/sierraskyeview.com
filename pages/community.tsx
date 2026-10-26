@@ -530,7 +530,7 @@ const Community: NextPage = () => {
                 <div className="absolute top-6 left-6 bg-blue-600 text-white rounded-lg p-4 shadow-lg">
                   <h4 className="font-bold text-lg">📍 Sierra at Skyeview Homes</h4>
                   <p className="text-sm opacity-90">Premium new construction homes</p>
-                  <p className="text-xs opacity-75 mt-1">Starting from $439,000</p>
+                  <p className="text-xs opacity-75 mt-1">Starting from $421,990 as of October 26, 2026; subject to change</p>
                 </div>
               </div>
               
