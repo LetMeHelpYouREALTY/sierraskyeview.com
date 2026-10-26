@@ -38,7 +38,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What schools are near Sierra at Skyeview Homes?",
-      answer: "Sierra at Skyeview Homes is conveniently located near several excellent schools including William & Mary Scherbenbach Elementary School, James Bilbray Elementary School, Kenneth Divich Elementary School, Ralph Cadwallader Middle School, Edmundo Escobedo Middle School, Arbor View High School, and Somerset Academy-Skye Canyon Campus Charter School."
+      answer: "Sierra at Skyeview Homes is near several Clark County School District and charter campuses, including William & Mary Scherbenbach Elementary School, James Bilbray Elementary School, Kenneth Divich Elementary School, Ralph Cadwallader Middle School, Edmundo Escobedo Middle School, Arbor View High School, and Somerset Academy-Skye Canyon Campus Charter School. Confirm zone assignments for your homesite with CCSD before you close."
     },
     {
       question: "What smart home features are included at Sierra at Skyeview Homes?",

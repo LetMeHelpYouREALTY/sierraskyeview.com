@@ -29,7 +29,7 @@ const Community: NextPage = () => {
     <>
       <Head>
         <title>Sierra at Skyeview Community | Skye Canyon Near Mount Charleston | Northwest Las Vegas 89166</title>
-        <meta name="description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston, zip code 89166. Located in 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta name="description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston, zip code 89166. Located in a 1,700-acre master-planned community with resort-style amenities, parks, and CCSD school zones. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
         <meta name="keywords" content="Sierra at Skyeview community, Skye Canyon amenities, Northwest Las Vegas master-planned community, Mount Charleston area homes, 89166 community, Skye Canyon lifestyle, realtor service when buying a new home, Skye Canyon parks and trails" />
         <meta property="og:title" content="Sierra at Skyeview Community | Skye Canyon Near Mount Charleston" />
         <meta property="og:description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston. Master-planned community with premium amenities. Expert realtor service when buying a new home." />
@@ -38,7 +38,7 @@ const Community: NextPage = () => {
         <meta property="og:url" content="https://www.sierraskyeview.com/community" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sierra at Skyeview Community | Skye Canyon" />
-        <meta name="twitter:description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas. Master-planned community with premium amenities, parks, and top-rated schools." />
+        <meta name="twitter:description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas. Master-planned community with premium amenities, parks, and neighborhood schools." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-neighborhood-real.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/community" />
         
@@ -85,7 +85,7 @@ const Community: NextPage = () => {
                   "name": "What makes Skye Canyon a great community for new construction homes?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Skye Canyon is a 1,700-acre master-planned community in Northwest Las Vegas offering comprehensive amenities, excellent schools, parks, trails, and a strong sense of community. Located at 3,000+ foot elevation with cooler temperatures and mountain views, Skye Canyon provides a unique lifestyle opportunity. Sierra at Skyeview Homes within Skye Canyon offers new construction homes with access to all these community benefits."
+                    "text": "Skye Canyon is a 1,700-acre master-planned community in Northwest Las Vegas offering comprehensive amenities, parks, trails, neighborhood schools, and community programming. Located at 3,000+ foot elevation with cooler temperatures and mountain views, Skye Canyon provides a unique lifestyle opportunity. Sierra at Skyeview Homes within Skye Canyon offers new construction homes with access to all these community benefits."
                   }
                 },
                 {
@@ -686,7 +686,7 @@ const Community: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What schools are nearby?</h3>
                 <p className="text-gray-700 mb-4">
-                  Excellent schools include William & Mary Scherbenbach Elementary, Arbor View High School, and Somerset Academy-Skye Canyon Campus.
+                  Nearby campuses include William &amp; Mary Scherbenbach Elementary, Arbor View High School, and Somerset Academy-Skye Canyon Campus—verify your assigned school with Clark County School District before you close.
                 </p>
               </div>
             </div>
