@@ -543,8 +543,8 @@ const Community: NextPage = () => {
                   </div>
                   <div className="text-center">
                     <div className="text-2xl mb-2">🏫</div>
-                    <h4 className="font-semibold text-gray-900">Top-Rated Schools</h4>
-                    <p className="text-sm text-gray-600">Elementary, middle, and high schools</p>
+                    <h4 className="font-semibold text-gray-900">Neighborhood Schools</h4>
+                    <p className="text-sm text-gray-600">CCSD campuses serving Skye Canyon (verify assignments)</p>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl mb-2">🛍️</div>
@@ -665,7 +665,7 @@ const Community: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Is Skye Canyon a gated community?</h3>
                 <p className="text-gray-700 mb-4">
-                  Many newer communities within Skye Canyon, including Sierra at Skyeview Homes, offer gated access for added security and exclusivity.
+                  Skye Canyon includes multiple neighborhoods with different entrance features. Ask Dr. Jan Duffy for current access details at Sierra at Skyeview before you tour.
                 </p>
               </div>
 

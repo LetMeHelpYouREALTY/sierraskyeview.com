@@ -188,7 +188,7 @@ const FloorPlans: NextPage = () => {
                     <td className="px-6 py-4 text-center text-gray-700">3</td>
                     <td className="px-6 py-4 text-center text-gray-700">2.5</td>
                     <td className="px-6 py-4 text-center font-semibold text-gray-900">$436,990</td>
-                    <td className="px-6 py-4 text-center text-gray-600">Growing families</td>
+                    <td className="px-6 py-4 text-center text-gray-600">Extra flex space</td>
                     <td className="px-6 py-4 text-center">
                       <Link href="/model-1708" className="btn-primary inline-block px-4 py-2 text-sm">
                         View →

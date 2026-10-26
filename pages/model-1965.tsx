@@ -103,7 +103,7 @@ const Model1965: NextPage = () => {
                   "name": "How does Dr. Jan Duffy help with 1,965 sq ft home purchases?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Dr. Jan represents the buyer—not the builder. She provides expert guidance on design selections, negotiates incentives, surfaces exclusive lot information, and manages the build process through closing to protect your investment."
+                    "text": "Dr. Jan represents the buyer—not the builder. She provides expert guidance on design selections, negotiates incentives, surfaces lot premiums and delivery dates not published on public portals, and manages the build process through closing to protect your investment."
                   }
                 }
               ]

@@ -26,7 +26,7 @@ const QA: NextPage = () => {
     },
     {
       question: "Is Skye Canyon a gated community?",
-      answer: "Skye Canyon offers an excellent blend of comfort, convenience, and natural beauty. Many of the newer communities within Skye Canyon, including Sierra at Skyeview Homes, offer gated access for added security. The master-planned community spans 1,700 acres and includes multiple neighborhoods with varying levels of security features."
+      answer: "Skye Canyon spans 1,700 acres with multiple neighborhoods, each with its own entrance and access setup. Sierra at Skyeview is one neighborhood within the master plan—confirm current community access features with Dr. Jan Duffy when you schedule a visit."
     },
     {
       question: "What amenities are available in Skye Canyon?",

@@ -22,7 +22,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
   const faqItems = [
     {
       question: "Why choose Northwest Las Vegas for new construction homes?",
-      answer: "Northwest Las Vegas offers a unique combination of suburban tranquility, master-planned communities, excellent schools, and easy access to both Las Vegas amenities and outdoor recreation. Sierra at Skyeview Homes in Skye Canyon represents the premier new construction opportunity in Northwest Las Vegas, featuring elevated living at 3,000+ feet with cooler temperatures and mountain views."
+      answer: "Northwest Las Vegas offers a unique combination of suburban tranquility, master-planned communities, parks and trails, and easy access to both Las Vegas amenities and outdoor recreation. Sierra at Skyeview Homes in Skye Canyon represents the premier new construction opportunity in Northwest Las Vegas, featuring elevated living at 3,000+ feet with cooler temperatures and mountain views."
     },
     {
       question: "What makes Sierra at Skyeview Homes the best choice for Northwest Las Vegas new homes?",
@@ -38,7 +38,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
     },
     {
       question: "Are there quick move-in homes available in Northwest Las Vegas?",
-      answer: "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $421,990 (Century Communities pricing as of October 26, 2026; subject to change). Dr. Jan Duffy tracks availability and helps buyers purchase quick move-in homes with expert buyer representation."
+      answer: "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft ($421,990), 1,708 sq ft ($436,990), and 1,965 sq ft ($456,990) floor plans (Century Communities pricing as of October 26, 2026; subject to change). Dr. Jan Duffy tracks availability and helps buyers purchase quick move-in homes with expert buyer representation."
     }
   ];
 
@@ -77,7 +77,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Northwest Las Vegas New Homes | Sierra at Skyeview | Skye Canyon 89166</title>
+        <title>Northwest Las Vegas New Homes | Sierra at Skyeview</title>
         <meta name="description" content="Sierra at Skyeview new construction homes in Skye Canyon, Northwest Las Vegas 89166: elevated living at 3,000+ feet with buyer's agent Dr. Jan Duffy." />
         <meta name="keywords" content="Northwest Las Vegas new homes, Sierra at Skyeview Homes, new construction Northwest Las Vegas, Skye Canyon 89166, Northwest Las Vegas real estate, realtor service when buying a new home, buyer's agent Northwest Las Vegas" />
         <meta property="og:title" content="Northwest Las Vegas New Homes | Sierra at Skyeview Skye Canyon" />
@@ -161,7 +161,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
             
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                Northwest Las Vegas has emerged as one of the most desirable areas for new construction homes, offering a perfect balance of suburban tranquility, master-planned community living, excellent schools, and easy access to Las Vegas amenities. <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link> represents the premier new construction opportunity in Northwest Las Vegas, combining elevated living at 3,000+ feet with modern home designs and world-class community amenities.
+                Northwest Las Vegas has emerged as one of the most desirable areas for new construction homes, offering a perfect balance of suburban tranquility, master-planned community living, recreation amenities, and easy access to Las Vegas amenities. <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link> represents the premier new construction opportunity in Northwest Las Vegas, combining elevated living at 3,000+ feet with modern home designs and world-class community amenities.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -179,7 +179,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                Excellent Schools and Family-Friendly Environment
+                Schools and CCSD Zones Near Skye Canyon
               </h3>
               <p className="text-lg text-gray-700 mb-6">
                 Northwest Las Vegas includes established school zones served by Clark County School District, with several campuses near Skye Canyon. Skye Canyon’s master plan includes parks, trails, and recreation centers. Dr. Jan Duffy can share commute times and school names for specific lots—verify assignments with the district before you close.
@@ -225,7 +225,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
                 Investment Value of Northwest Las Vegas New Construction
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Northwest Las Vegas new construction homes have shown strong appreciation potential due to the area's growth, quality of master-planned communities, excellent schools, and unique lifestyle advantages. Sierra at Skyeview Homes in Skye Canyon offers an opportunity to invest in this growing market with new construction homes that feature modern designs, energy efficiency, and access to world-class amenities. The combination of elevated living, mountain proximity, and master-planned community benefits creates a compelling investment opportunity for Northwest Las Vegas homebuyers.
+                Northwest Las Vegas new construction homes have shown strong appreciation potential due to the area's growth, quality of master-planned communities, elevated Skye Canyon lots, and unique lifestyle advantages. Sierra at Skyeview Homes in Skye Canyon offers an opportunity to invest in this growing market with new construction homes that feature modern designs, energy efficiency, and access to world-class amenities. The combination of elevated living, mountain proximity, and master-planned community benefits creates a compelling investment opportunity for Northwest Las Vegas homebuyers.
               </p>
             </div>
           </div>

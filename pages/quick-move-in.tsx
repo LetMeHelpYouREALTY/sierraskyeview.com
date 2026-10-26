@@ -21,7 +21,7 @@ const QuickMoveIn: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview Quick Move-In Homes | Available Now | Northwest Las Vegas 89166</title>
+        <title>Sierra at Skyeview Quick Move-In | Las Vegas 89166</title>
         <meta name="description" content="Sierra at Skyeview quick move-in homes in Skye Canyon, Northwest Las Vegas 89166. Compare Century Communities homes and delivery dates with Dr. Jan Duffy." />
         <meta property="og:title" content="Sierra at Skyeview Quick Move-In Homes | Available Now" />
         <meta property="og:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. New construction homes ready for immediate occupancy. Expert realtor service when buying a new home." />
@@ -75,7 +75,7 @@ const QuickMoveIn: NextPage = () => {
                   "name": "Are there quick move-in homes available at Sierra at Skyeview?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans. Dr. Jan Duffy tracks availability and helps buyers purchase quick move-in homes with expert buyer representation."
+                    "text": "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft ($421,990), 1,708 sq ft ($436,990), and 1,965 sq ft ($456,990) floor plans. Dr. Jan Duffy tracks availability and helps buyers purchase quick move-in homes with expert buyer representation."
                   }
                 },
                 {
@@ -366,8 +366,8 @@ const QuickMoveIn: NextPage = () => {
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🏫</div>
                     <div>
-                      <h4 className="text-lg font-semibold mb-2">Excellent Schools</h4>
-                      <p className="text-gray-300">Neighborhood schools provide quality education for families with children of all ages.</p>
+                      <h4 className="text-lg font-semibold mb-2">Neighborhood Schools</h4>
+                      <p className="text-gray-300">Clark County School District campuses serve Skye Canyon—confirm zone assignments for your lot with the district.</p>
                     </div>
                   </div>
                 </div>
