@@ -191,10 +191,10 @@ const BlogPost: NextPage = () => {
             </p>
 
             <h3 className="text-2xl font-bold text-white mt-6 mb-3">
-              Established Neighborhoods
+              Older Neighborhoods
             </h3>
             <p className="text-white mb-4">
-              Resale properties are in established neighborhoods with mature landscaping, settled communities, and proven track records. You can see exactly what the neighborhood looks like and how it's developed over time.
+              Resale properties are in older neighborhoods with mature landscaping, settled communities, and proven track records. You can see exactly what the neighborhood looks like and how it's developed over time.
             </p>
 
             <h3 className="text-2xl font-bold text-white mt-6 mb-3">
@@ -278,7 +278,7 @@ const BlogPost: NextPage = () => {
             </h3>
             <ul className="list-disc pl-6 mb-4 text-white space-y-2">
               <li>You need to move immediately</li>
-              <li>You prefer established neighborhoods with mature landscaping</li>
+              <li>You prefer older neighborhoods with mature landscaping</li>
               <li>You want more negotiation flexibility on price</li>
               <li>You appreciate unique character and architectural details</li>
               <li>You're comfortable with potential repairs and updates</li>

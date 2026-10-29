@@ -12,7 +12,7 @@ const Community: NextPage = () => {
     { icon: "🏊", title: "Fitness Center", description: "State-of-the-art fitness facilities for active living and wellness" },
     { icon: "🏃", title: "Parks & Trails", description: "Beautiful parks and walking trails throughout the 1,700-acre community" },
     { icon: "🏀", title: "Sports Courts & Fields", description: "Sports courts and fields for active living and community engagement" },
-    { icon: "🎯", title: "Splash Pads", description: "Family-friendly splash pads and water features for all ages" },
+    { icon: "🎯", title: "Splash Pads", description: "Splash pads and water features for all ages" },
     { icon: "🏫", title: "Neighborhood Schools", description: "Convenient access to local schools within the community" }
   ];
 
@@ -190,7 +190,7 @@ const Community: NextPage = () => {
                 Master-Planned Community Excellence
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Skye Canyon's master-planned approach ensures thoughtful development, quality infrastructure, and long-term value appreciation. The 1,700-acre community is designed to preserve natural beauty while providing modern conveniences, creating a balance between development and environmental stewardship. This master-planned approach includes comprehensive amenities, quality schools, parks, trails, and recreational facilities that enhance quality of life. The community's design philosophy focuses on creating neighborhoods that foster connection, wellness, and active living. This commitment to master-planned excellence makes Skye Canyon one of the most desirable communities in Northwest Las Vegas for buyers seeking new construction homes with comprehensive lifestyle benefits.
+                Skye Canyon's master-planned approach ensures thoughtful development, quality infrastructure, and long-term value appreciation. The 1,700-acre community is designed to preserve natural beauty while providing modern conveniences, creating a balance between development and environmental stewardship. This master-planned approach includes comprehensive amenities, nearby public schools, parks, trails, and recreational facilities that enhance quality of life. The community's design philosophy focuses on creating neighborhoods that foster connection, wellness, and active living. This commitment to master-planned excellence makes Skye Canyon one of the most desirable communities in Northwest Las Vegas for buyers seeking new construction homes with comprehensive lifestyle benefits.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -241,7 +241,7 @@ const Community: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6 text-center">
                 <div className="text-3xl mb-3">🎪</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Playgrounds</h3>
-                <p className="text-gray-600 text-sm">Family-friendly playgrounds for children of all ages</p>
+                <p className="text-gray-600 text-sm">Playgrounds for all ages</p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6 text-center">
                 <div className="text-3xl mb-3">🏃‍♂️</div>
