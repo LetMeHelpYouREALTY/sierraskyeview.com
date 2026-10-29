@@ -128,7 +128,7 @@ const BlogPost: NextPage = () => {
               <li><strong>Stunning Central Clubhouse:</strong> A beautiful clubhouse serving as the heart of community life</li>
               <li><strong>Resort-Style Pools:</strong> Multiple pools for relaxation and recreation</li>
               <li><strong>Parks & Green Spaces:</strong> Beautiful parks throughout the community</li>
-              <li><strong>Family-Friendly Playgrounds:</strong> Playgrounds designed for children of all ages</li>
+              <li><strong>Playgrounds:</strong> Play areas for all ages</li>
               <li><strong>Extensive Trail System:</strong> Walking, jogging, and biking trails connecting neighborhoods</li>
               <li><strong>Splash Pads & Water Features:</strong> Water play areas for cooling off</li>
               <li><strong>Sports Courts & Fields:</strong> Basketball, tennis, and sports fields for active recreation</li>
@@ -146,7 +146,7 @@ const BlogPost: NextPage = () => {
               <li><strong>Easy Access to Las Vegas:</strong> Just minutes from the Las Vegas Strip, downtown, and major employment centers</li>
               <li><strong>Proximity to Mount Charleston:</strong> 30 minutes to mountain recreation, hiking, and skiing</li>
               <li><strong>Convenient Shopping:</strong> Nearby shopping centers, restaurants, and services</li>
-              <li><strong>Quality Schools:</strong> Access to excellent public and private schools</li>
+              <li><strong>Nearby Public Schools:</strong> Access to excellent public and private schools</li>
               <li><strong>Healthcare Access:</strong> Close to major medical centers and healthcare facilities</li>
             </ul>
 
