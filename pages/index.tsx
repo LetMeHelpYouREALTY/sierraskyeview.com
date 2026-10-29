@@ -547,7 +547,7 @@ const Home: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🎯</div>
                 <h3 className="text-xl font-bold mb-2">Las Vegas Specialist</h3>
-                <p className="text-gray-300">In real estate since 1983. Deep knowledge of Skye Canyon and the entire metro area. <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Learn more about Dr. Jan Duffy</Link>.</p>
+                <p className="text-gray-300">Licensed since 2008 · 35 years in Las Vegas. Deep knowledge of Skye Canyon and the entire metro area. <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Learn more about Dr. Jan Duffy</Link>.</p>
               </div>
             </div>
           </div>

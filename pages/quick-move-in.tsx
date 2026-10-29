@@ -464,7 +464,7 @@ const QuickMoveIn: NextPage = () => {
                     <div className="text-2xl mr-4">🏛️</div>
                     <div>
                       <p className="font-semibold text-gray-900">Experience</p>
-                      <p className="text-gray-600">In real estate since 1983</p>
+                      <p className="text-gray-600">Licensed since 2008 · 35 years in Las Vegas</p>
                     </div>
                   </div>
                 </div>

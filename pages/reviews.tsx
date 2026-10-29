@@ -292,7 +292,7 @@ const Reviews: NextPage = () => {
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
               <p className="text-lg text-gray-600">
-                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her career in real estate since 1983 and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home in the Sierra at Skyeview Area. <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Explore buyer representation services</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today.
+                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her career licensed since 2008 · 35 years in Las Vegas and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home in the Sierra at Skyeview Area. <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Explore buyer representation services</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today.
               </p>
             </div>
           </div>

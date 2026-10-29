@@ -66,7 +66,7 @@ const QA: NextPage = () => {
     },
     {
       question: "How does Dr. Jan Duffy help with the home buying process?",
-      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction at Sierra at Skyeview Homes in Skye Canyon. She represents YOUR interests exclusively—not the builder's. In real estate since 1983, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon's unique 3,000+ foot elevation community, proximity to Mount Charleston, and the entire Las Vegas metro area."
+      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction at Sierra at Skyeview Homes in Skye Canyon. She represents YOUR interests exclusively—not the builder's. Licensed since 2008 · 35 years in Las Vegas, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon's unique 3,000+ foot elevation community, proximity to Mount Charleston, and the entire Las Vegas metro area."
     },
     {
       question: "What is the highest temperature ever recorded in Las Vegas?",

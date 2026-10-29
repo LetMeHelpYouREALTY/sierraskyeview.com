@@ -494,7 +494,7 @@ const NewBuildHomes: NextPage = () => {
                     <div className="text-2xl mr-4">🎓</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Licensed Professional</h4>
-                      <p className="text-gray-600">Licensed REALTOR® in real estate since 1983, with ongoing education and professional development.</p>
+                      <p className="text-gray-600">Licensed REALTOR® licensed since 2008 · 35 years in Las Vegas, with ongoing education and professional development.</p>
                     </div>
                   </div>
                 </div>
