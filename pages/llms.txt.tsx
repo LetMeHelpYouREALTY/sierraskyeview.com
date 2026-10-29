@@ -7,7 +7,7 @@ const LlmsTxt = () => null;
 
 const buildLlmsTxt = () => `
 # Sierra at Skyeview Homes — buyer resource site
-# Curated by Dr. Jan Duffy, Nevada REALTOR (license S.0197614), in real estate since 1983. Independent buyer's agent; not the builder.
+# Curated by Dr. Jan Duffy, Nevada REALTOR (license S.0197614), licensed since 2008 · 35 years in Las Vegas. Independent buyer's agent; not the builder.
 
 > Sierra at Skyeview is a Century Communities neighborhood of two-story homes in Skye Canyon, Las Vegas, NV 89166.
 > Builder page: ${SIERRA_PRICING_SOURCE}

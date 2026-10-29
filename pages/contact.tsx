@@ -220,7 +220,7 @@ const Contact: NextPage = () => {
                 Why Contact Dr. Jan Duffy for Your New Home Purchase?
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation that protects your interests and ensures you get the best value for your investment. In real estate since 1983, with deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers navigate the new construction process with confidence. Her realtor service when buying a new home includes early access to the best lots, expert negotiation on pricing and incentives, and guidance throughout construction and closing.
+                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation that protects your interests and ensures you get the best value for your investment. Licensed since 2008 · 35 years in Las Vegas, with deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers navigate the new construction process with confidence. Her realtor service when buying a new home includes early access to the best lots, expert negotiation on pricing and incentives, and guidance throughout construction and closing.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -405,7 +405,7 @@ const Contact: NextPage = () => {
                     <div className="text-2xl mr-4">🏆</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Experience</h3>
-                      <p className="text-gray-600">In real estate since 1983</p>
+                      <p className="text-gray-600">Licensed since 2008 · 35 years in Las Vegas</p>
                     </div>
                   </div>
                 </div>
