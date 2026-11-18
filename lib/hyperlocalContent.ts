@@ -4,6 +4,14 @@
  * treat every figure as as-of the cited date and confirm before client advice.
  */
 
+import {
+  formatUsd,
+  SIERRA_PLAN_1602_FROM_USD,
+  SIERRA_PLAN_1708_FROM_USD,
+  SIERRA_PLAN_1965_FROM_USD,
+  SIERRA_PRICING_AS_OF,
+} from "./sierraPricing";
+
 export const HYPERLOCAL_RESEARCH_AS_OF = "2026-11-18";
 
 export const HYPERLOCAL_SOURCES = {
@@ -74,7 +82,7 @@ export const MARKET_FACTS = {
     "Some parcels sit in City special improvement districts (e.g. SID 609/610) with long-dated assessment schedules—verify district charges on the specific lot before writing an offer.",
 } as const;
 
-/** Floor-plan snapshot aligned with Century Communities as of Oct 26, 2026 site pricing module. */
+/** Floor-plan snapshot; starting prices come from sierraPricing.ts (single source of truth). */
 export const PLAN_FACTS = {
   plans: [
     {
@@ -82,21 +90,21 @@ export const PLAN_FACTS = {
       sqft: "1,602",
       beds: "3",
       baths: "2.5",
-      fromUsd: 421_990,
+      fromUsd: SIERRA_PLAN_1602_FROM_USD,
     },
     {
       name: "Residence 1708",
       sqft: "1,708",
       beds: "3–4",
       baths: "2.5",
-      fromUsd: 436_990,
+      fromUsd: SIERRA_PLAN_1708_FROM_USD,
     },
     {
       name: "Residence 1965",
       sqft: "1,965",
       beds: "3–5",
       baths: "2.5–3",
-      fromUsd: 456_990,
+      fromUsd: SIERRA_PLAN_1965_FROM_USD,
     },
   ],
   qmiStreetsNote:
@@ -178,8 +186,9 @@ export const VARIANT_COPY: Record<HyperlocalPageVariant, VariantCopy> = {
     headline: "Hyperlocal buyer representation for Sierra at Skyeview (89166)",
     lead: `Sierra at Skyeview is Century Communities’ two-story Skyeview collection in Skye Canyon—${COMMUNITY_FACTS.highwayAccess}, ZIP ${COMMUNITY_FACTS.zip}. Dr. Jan Duffy works this pocket daily: lot orientation, incentives, and contract terms that protect you—not the builder.`,
     bullets: [
-      `${COMMUNITY_FACTS.acreageLabel} with ${AMENITY_FACTS.skyeCanyonPark}`,
-      `Three plans from 1,602–1,965 sq ft; base pricing published from $421,990 (confirm live builder sheet).`,
+      `Skye Canyon is a ${COMMUNITY_FACTS.acreageLabel} in ZIP ${COMMUNITY_FACTS.zip}.`,
+      AMENITY_FACTS.skyeCanyonPark,
+      `Three plans from 1,602–1,965 sq ft; base pricing published from ${formatUsd(SIERRA_PLAN_1602_FROM_USD)} (as of ${SIERRA_PRICING_AS_OF}; confirm live builder sheet).`,
       `Skye Canyon MLS plats closed ~${MARKET_FACTS.skyeCanyonClosings} homes at a ${MARKET_FACTS.skyeCanyonMedianSale} median (${MARKET_FACTS.asOfLabel}).`,
       `${COMMUNITY_FACTS.mountCharlestonDrive} to Mount Charleston recreation.`,
     ],
@@ -325,7 +334,7 @@ export const VARIANT_COPY: Record<HyperlocalPageVariant, VariantCopy> = {
     headline: "Sierra / Skye Canyon answers with current local context",
     lead: "FAQs below are grounded in Century Communities plan data and 2026 Skye Canyon market samples—always re-verify before you write an offer.",
     bullets: [
-      `Base plan pricing still publishes from $421,990 / $436,990 / $456,990 for 1602 / 1708 / 1965 (as of site pricing date).`,
+      `Base plan pricing still publishes from ${formatUsd(SIERRA_PLAN_1602_FROM_USD)} / ${formatUsd(SIERRA_PLAN_1708_FROM_USD)} / ${formatUsd(SIERRA_PLAN_1965_FROM_USD)} for 1602 / 1708 / 1965 (as of ${SIERRA_PRICING_AS_OF}).`,
       `Market: ${MARKET_FACTS.skyeCanyonMedianSale} Skye Canyon median vs ${MARKET_FACTS.zip89166MedianSale} in 89166.`,
       `Amenities: ${AMENITY_FACTS.skyeCanyonPark}`,
     ],
