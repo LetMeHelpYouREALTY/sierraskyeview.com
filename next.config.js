@@ -43,6 +43,57 @@ module.exports = {
         destination: '/model-1965',
         permanent: true,
       },
+      // Soft 404 / legacy path recovery (GSC Coverage 2026-11-18)
+      {
+        source: '/home',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/Home',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/index.html',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/homes',
+        destination: '/floor-plans',
+        permanent: true,
+      },
+      {
+        source: '/skye-canyon',
+        destination: '/community',
+        permanent: true,
+      },
+      {
+        source: '/skye-canyon-homes',
+        destination: '/community',
+        permanent: true,
+      },
+      {
+        source: '/sierra',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/sierra-skyeview',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/sierraskyeview',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/sitemap',
+        destination: '/sitemap.xml',
+        permanent: true,
+      },
     ];
   },
   async headers() {

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 import { CENTURY_COMMUNITIES_SELLER, PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const Model1708: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -370,7 +371,10 @@ const Model1708: NextPage = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      
+        <HyperlocalServiceSection variant="model" />
+
+        <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>

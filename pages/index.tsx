@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const heroSlides = [
     {
@@ -500,6 +501,17 @@ const Home: NextPage = () => {
               <p className="text-lg text-gray-700 mb-6">
                 One of the unique advantages of Sierra at Skyeview Homes in Skye Canyon is proximity to Mount Charleston, located just 30 minutes away in the Spring Mountains. This proximity provides easy access to year-round outdoor recreation including hiking on over 60 miles of trails, winter skiing and snowboarding at the Las Vegas Ski & Snowboard Resort, camping, picnicking, and wildlife viewing. The ability to escape to mountain recreation while maintaining Las Vegas convenience creates a lifestyle that's increasingly sought after by homebuyers. This combination of elevated living, mountain proximity, and Las Vegas access makes Sierra at Skyeview Homes an exceptional choice for buyers seeking a unique lifestyle in Northwest Las Vegas.
               </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Hyperlocal guides for 89166 buyers
+              </h3>
+              <ul className="list-disc pl-6 text-lg text-gray-700 mb-6 space-y-2">
+                <li><Link href="/89166-homes" className="text-blue-600 hover:text-blue-700 underline">89166 homes hub</Link> — ZIP-level Sierra inventory and market context</li>
+                <li><Link href="/living-in-skye-canyon" className="text-blue-600 hover:text-blue-700 underline">Living in Skye Canyon</Link> — amenities, dues layers, drive times</li>
+                <li><Link href="/buyers-agent-skye-canyon" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon buyer’s agent</Link> — independent representation scope</li>
+                <li><Link href="/how-to-buy-sierra-skyeview" className="text-blue-600 hover:text-blue-700 underline">How to buy Sierra at Skyeview</Link> — step-by-step process</li>
+                <li><Link href="/skyeview-century-communities" className="text-blue-600 hover:text-blue-700 underline">Century Communities Skyeview</Link> — Sierra vs sister collections</li>
+              </ul>
             </div>
           </div>
         </section>
@@ -662,6 +674,9 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="home" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">

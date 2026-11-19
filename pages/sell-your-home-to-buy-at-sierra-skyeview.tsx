@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import { PAGE_AGENT_REFERENCE, SITE_URL } from "../lib/schemaIds";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 const LISTING_CONSULTATION_BASE =
   "https://calendly.com/drjanduffy/listing-consultation?utm_source=sierraskyeview.com&utm_medium=website&utm_content=";
 
@@ -106,7 +107,10 @@ const SellToBuySierra: NextPage = () => {
         </article>
       </main>
 
-      <footer className="bg-gray-900 text-white py-10">
+      
+        <HyperlocalServiceSection variant="sell" />
+
+        <footer className="bg-gray-900 text-white py-10">
         <div className="max-w-7xl mx-auto px-4 text-center md:text-left">
           <div className="flex flex-col md:flex-row md:justify-between gap-6">
             <div>

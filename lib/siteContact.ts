@@ -1,0 +1,26 @@
+/** Canonical NAP for Sierra at Skyeview site (match GBP / schema / visible copy). */
+export const SITE_CONTACT = {
+  businessName: "Sierra at Skyeview Homes",
+  agentName: "Dr. Jan Duffy",
+  brokerage: "Berkshire Hathaway HomeServices Nevada Properties",
+  license: "S.0197614.LLC",
+  phoneDisplay: "(702) 903-4687",
+  phoneTel: "7029034687",
+  phoneE164: "+1-702-903-4687",
+  urgentPhoneDisplay: "(702) 222-1964",
+  email: "DrDuffy@SierraSkyeview.com",
+  streetAddress: "8925 Vanhoy Creek St.",
+  addressLocality: "Las Vegas",
+  addressRegion: "NV",
+  postalCode: "89166",
+  addressCountry: "US",
+  fullAddress: "8925 Vanhoy Creek St., Las Vegas, NV 89166",
+  geo: {
+    latitude: "36.3142721",
+    longitude: "-115.3144111",
+  },
+  hoursLabel: "Monday–Sunday 10:00 AM – 6:00 PM",
+  opens: "10:00",
+  closes: "18:00",
+  siteUrl: "https://www.sierraskyeview.com",
+} as const;

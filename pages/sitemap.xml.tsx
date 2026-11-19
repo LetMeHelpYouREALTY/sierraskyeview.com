@@ -183,6 +183,36 @@ const createSitemap = () => {
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/89166-homes</loc>
+    <lastmod>${lm("/89166-homes")}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/living-in-skye-canyon</loc>
+    <lastmod>${lm("/living-in-skye-canyon")}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/buyers-agent-skye-canyon</loc>
+    <lastmod>${lm("/buyers-agent-skye-canyon")}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/how-to-buy-sierra-skyeview</loc>
+    <lastmod>${lm("/how-to-buy-sierra-skyeview")}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/skyeview-century-communities</loc>
+    <lastmod>${lm("/skyeview-century-communities")}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>`;
 };
 

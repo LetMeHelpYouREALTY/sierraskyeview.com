@@ -1,11 +1,13 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { buildSierraPlaceSchema } from "../lib/schemaBuilders";
 import {
   ORGANIZATION_ID,
   REAL_ESTATE_AGENT_ID,
   SITE_URL,
   WEBSITE_ID,
 } from "../lib/schemaIds";
+import { SITE_CONTACT } from "../lib/siteContact";
 
 const ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",
@@ -16,7 +18,7 @@ const ORGANIZATION_SCHEMA = {
   "logo": `${SITE_URL}/favicon.ico`,
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-702-903-4687",
+    "telephone": SITE_CONTACT.phoneE164,
     "contactType": "customer service",
     "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
     "availableLanguage": ["English"]
@@ -43,20 +45,20 @@ const REAL_ESTATE_AGENT_SCHEMA = {
   "jobTitle": "Buyer's Agent & New Home Construction Specialist",
   "url": `${SITE_URL}/about`,
   "worksFor": { "@id": ORGANIZATION_ID },
-  "telephone": "+1-702-903-4687",
-  "email": "DrDuffy@SierraSkyeview.com",
+  "telephone": SITE_CONTACT.phoneE164,
+  "email": SITE_CONTACT.email,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "8925 Vanhoy Creek St.",
-    "addressLocality": "Las Vegas",
-    "addressRegion": "NV",
-    "postalCode": "89166",
-    "addressCountry": "US"
+    "streetAddress": SITE_CONTACT.streetAddress,
+    "addressLocality": SITE_CONTACT.addressLocality,
+    "addressRegion": SITE_CONTACT.addressRegion,
+    "postalCode": SITE_CONTACT.postalCode,
+    "addressCountry": SITE_CONTACT.addressCountry
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "36.2565",
-    "longitude": "-115.2848"
+    "latitude": SITE_CONTACT.geo.latitude,
+    "longitude": SITE_CONTACT.geo.longitude
   },
   "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
   "knowsAbout": [
@@ -81,7 +83,7 @@ const REAL_ESTATE_AGENT_SCHEMA = {
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-702-903-4687",
+    "telephone": SITE_CONTACT.phoneE164,
     "contactType": "sales",
     "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
     "availableLanguage": "English"
@@ -209,6 +211,10 @@ class MyDocument extends Document {
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(REAL_ESTATE_AGENT_SCHEMA) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(buildSierraPlaceSchema()) }}
           />
         </Head>
         <body className="bg-black antialiased">

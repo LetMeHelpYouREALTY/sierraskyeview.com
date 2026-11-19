@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const Services: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -577,6 +578,9 @@ const Services: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="services" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const Reviews: NextPage = () => {
   const [activeTab, setActiveTab] = useState('all');
@@ -421,6 +422,9 @@ const Reviews: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="reviews" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">
