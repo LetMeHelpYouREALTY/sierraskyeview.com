@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const QA: NextPage = () => {
   const [openItems, setOpenItems] = useState<number[]>([]);
@@ -228,6 +229,9 @@ const QA: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="qa" />
 
         {/* Contact CTA */}
         <section className="py-16 bg-red-600 text-white">

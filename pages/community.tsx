@@ -4,26 +4,26 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
+import { AMENITY_FACTS, NEARBY_DESTINATIONS } from "../lib/hyperlocalContent";
 
 const Community: NextPage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const amenities = [
-    { icon: "🏞️", title: "Recreation Center", description: "A recreational playground with inspiring scenery and an emotionally appealing setting" },
-    { icon: "🏊", title: "Fitness Center", description: "State-of-the-art fitness facilities for active living and wellness" },
-    { icon: "🏃", title: "Parks & Trails", description: "Beautiful parks and walking trails throughout the 1,700-acre community" },
-    { icon: "🏀", title: "Sports Courts & Fields", description: "Sports courts and fields for active living and community engagement" },
-    { icon: "🎯", title: "Splash Pads", description: "Splash pads and water features for all ages" },
-    { icon: "🏫", title: "Neighborhood Schools", description: "Convenient access to local schools within the community" }
+    { icon: "🏞️", title: "Skye Canyon Park", description: AMENITY_FACTS.skyeCanyonPark },
+    { icon: "🏊", title: "Skye Fitness", description: AMENITY_FACTS.skyeFitness },
+    { icon: "🏃", title: "Parks & Trails", description: AMENITY_FACTS.outdoor },
+    { icon: "☕", title: "Skye Center", description: AMENITY_FACTS.skyeCenter },
+    { icon: "🎯", title: "Splash Pads & Courts", description: "Splash pads, sports courts/fields, and tot lots sit inside the amenity grid around Skye Canyon Park." },
+    { icon: "🛒", title: "Marketplace", description: AMENITY_FACTS.marketplace }
   ];
 
-  const nearbyAttractions = [
-    { icon: "🏪", title: "Sprouts Farmers Market", distance: "Las Vegas, NV 89128", description: "Fresh organic groceries and health foods" },
-    { icon: "🛒", title: "Smith's Food and Drug", distance: "Las Vegas, NV 89106", description: "Full-service grocery store and pharmacy" },
-    { icon: "🏬", title: "Montecito Marketplace", distance: "Las Vegas, NV 89149", description: "Shopping center with retail and dining" },
-    { icon: "🍽️", title: "Mimi's Cafe", distance: "Las Vegas, NV 89149", description: "Casual dining with American comfort food" },
-    { icon: "☕", title: "Starbucks", distance: "Las Vegas, NV 89102", description: "Coffee and light meals" },
-    { icon: "🏫", title: "Local Schools", distance: "Nearby", description: "William & Mary Scherbenbach Elementary, James Bilbray Elementary, Kenneth Divich Elementary, Ralph Cadwallader Middle School, Edmundo Escobedo Middle School, Arbor View High School, Somerset Academy-Skye Canyon Campus" }
-  ];
+  const nearbyAttractions = NEARBY_DESTINATIONS.map((item) => ({
+    icon: "📍",
+    title: item.title,
+    distance: item.distance,
+    description: item.description,
+  }));
 
   return (
     <>
@@ -698,6 +698,9 @@ const Community: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="community" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">

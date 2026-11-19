@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const CONTACT_ERROR_MESSAGE =
   "Sorry, something went wrong sending your message. Please call or text Dr. Jan Duffy at (702) 903-4687.";
@@ -385,8 +386,16 @@ const Contact: NextPage = () => {
                     <div className="text-2xl mr-4">📍</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Address</h3>
-                      <p className="text-gray-600">Call for location details</p>
-                      <p className="sr-only">Sierra Skyeview Sales Office, 8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
+                      <p className="text-gray-600">Sierra at Skyeview Sales Area</p>
+                      <p className="text-gray-600">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
+                      <a
+                        href="https://www.google.com/maps/search/?api=1&query=8925+Vanhoy+Creek+St+Las+Vegas+NV+89166"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-700 font-semibold"
+                      >
+                        Get Directions
+                      </a>
                     </div>
                   </div>
 
@@ -469,6 +478,9 @@ const Contact: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="contact" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const heroSlides = [
     {
@@ -662,6 +663,9 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="home" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const MortgageCalculator: NextPage = () => {
   const [homePrice, setHomePrice] = useState(419990);
@@ -309,6 +310,9 @@ const MortgageCalculator: NextPage = () => {
             </a>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="mortgage" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const NorthwestLasVegasNewHomes: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -283,6 +284,9 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="northwest" />
 
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">

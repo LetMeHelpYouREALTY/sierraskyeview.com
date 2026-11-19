@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
+import HyperlocalServiceSection from "../components/HyperlocalServiceSection";
 
 const QuickMoveIn: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
@@ -472,6 +473,9 @@ const QuickMoveIn: NextPage = () => {
             </div>
           </div>
         </section>
+
+        
+        <HyperlocalServiceSection variant="quick-move-in" />
 
         {/* Call to Action */}
         <section className="py-16 bg-green-600 text-white">
