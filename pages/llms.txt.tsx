@@ -23,9 +23,20 @@ const buildLlmsTxt = () => `
 - ${SITE}/floor-plans : Floor plans and availability overview
 - ${SITE}/quick-move-in : Quick move-in inventory
 - ${SITE}/community : Skye Canyon community guide
+- ${SITE}/living-in-skye-canyon : Lifestyle, amenities, dues context for Skye Canyon
+- ${SITE}/89166-homes : ZIP 89166 hub for Sierra at Skyeview
+- ${SITE}/buyers-agent-skye-canyon : Independent buyer representation service page
+- ${SITE}/how-to-buy-sierra-skyeview : Step-by-step HowTo for buying Sierra
+- ${SITE}/skyeview-century-communities : Century Communities Skyeview / Sierra overview
 - ${SITE}/qa : Buyer FAQs (pricing, HOA, buyer agent role)
 - ${SITE}/sell-your-home-to-buy-at-sierra-skyeview : Sell current home to buy at Sierra at Skyeview
 - ${SITE}/about : About Dr. Jan Duffy, buyer's agent
+
+## Entity facts (GEO)
+- Place: Sierra at Skyeview inside Skye Canyon, Las Vegas NV 89166
+- Builder: Century Communities
+- Agent: Dr. Jan Duffy, BHHS Nevada Properties, license S.0197614.LLC
+- Phone: (702) 903-4687 · Email: DrDuffy@SierraSkyeview.com
 
 ## Pricing note
 Prices change often, so this file lists none. Site pages show Century Communities pricing as of ${SIERRA_PRICING_AS_OF}, subject to change; confirm current pricing on the builder page above before writing an offer.

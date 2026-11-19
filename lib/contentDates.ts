@@ -23,6 +23,11 @@ export const CONTENT_LAST_MODIFIED: Record<string, string> = {
   "/model-1708": "2026-11-18",
   "/model-1965": "2026-11-18",
   "/sell-your-home-to-buy-at-sierra-skyeview": "2026-11-18",
+  "/89166-homes": "2026-11-18",
+  "/living-in-skye-canyon": "2026-11-18",
+  "/buyers-agent-skye-canyon": "2026-11-18",
+  "/how-to-buy-sierra-skyeview": "2026-11-18",
+  "/skyeview-century-communities": "2026-11-18",
 };
 
 export function lastModForPath(path: string): string {
