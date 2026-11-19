@@ -17,6 +17,29 @@ import FaqSection from "./FaqSection";
 import JsonLd from "./JsonLd";
 import NapBlock from "./NapBlock";
 
+const NAV_LINKS = [
+  { href: "/", label: "Home" },
+  { href: "/floor-plans", label: "Homes" },
+  { href: "/community", label: "Community" },
+  { href: "/services", label: "Services" },
+  { href: "/89166-homes", label: "89166" },
+  { href: "/contact", label: "Contact" },
+] as const;
+
+const FOOTER_LINKS = [
+  { href: "/", label: "Home" },
+  { href: "/floor-plans", label: "Floor plans" },
+  { href: "/quick-move-in", label: "Quick move-in" },
+  { href: "/community", label: "Skye Canyon guide" },
+  { href: "/living-in-skye-canyon", label: "Living in Skye Canyon" },
+  { href: "/buyers-agent-skye-canyon", label: "Buyer’s agent" },
+  { href: "/how-to-buy-sierra-skyeview", label: "How to buy" },
+  { href: "/services", label: "Services" },
+  { href: "/about", label: "About Dr. Jan" },
+  { href: "/contact", label: "Contact" },
+  { href: "/qa", label: "Q&A" },
+] as const;
+
 type SeoLandingLayoutProps = {
   title: string;
   description: string;
@@ -72,23 +95,42 @@ export default function SeoLandingLayout({
         ]}
       />
 
-      <nav className="bg-white shadow-lg fixed w-full top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center py-4">
-          <a href={`tel:${SITE_CONTACT.phoneTel}`} className="text-2xl font-bold text-blue-600">
-            {SITE_CONTACT.phoneDisplay}
-          </a>
-          <div className="hidden lg:flex space-x-6 text-sm">
-            <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-            <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
-            <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
-            <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
-            <Link href="/89166-homes" className="text-gray-700 hover:text-blue-600 font-medium">89166</Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+      <nav className="bg-white shadow-lg fixed w-full top-0 z-50" aria-label="Primary">
+        <div className="max-w-7xl mx-auto px-4 py-3 md:py-4">
+          <div className="flex justify-between items-center gap-4">
+            <a
+              href={`tel:${SITE_CONTACT.phoneTel}`}
+              className="text-xl md:text-2xl font-bold text-blue-600 min-h-[44px] inline-flex items-center"
+            >
+              {SITE_CONTACT.phoneDisplay}
+            </a>
+            <div className="hidden md:flex flex-wrap justify-end gap-x-6 gap-y-2 text-sm">
+              {NAV_LINKS.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-gray-700 hover:text-blue-600 font-medium min-h-[44px] inline-flex items-center"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className="md:hidden mt-3 flex flex-wrap gap-2 border-t border-gray-100 pt-3">
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="inline-flex min-h-[44px] items-center rounded-md bg-slate-100 px-3 text-sm font-medium text-gray-800 hover:bg-blue-50 hover:text-blue-700"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
         </div>
       </nav>
 
-      <main className="pt-20">
+      <main className="pt-28 md:pt-20">
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4">
             <h1 id="page-h1" className="text-4xl md:text-5xl font-bold mb-6 max-w-4xl">
@@ -151,9 +193,32 @@ export default function SeoLandingLayout({
         </section>
       </main>
 
-      <footer className="bg-gray-900 text-gray-400 py-8 text-center text-sm">
-        <p>{SITE_CONTACT.brokerage} since September 2008 · License {SITE_CONTACT.license}</p>
-        <p className="mt-2">{SITE_CONTACT.fullAddress} · {SITE_CONTACT.phoneDisplay}</p>
+      <footer className="bg-gray-900 text-gray-300 py-10">
+        <div className="max-w-7xl mx-auto px-4">
+          <nav aria-label="Footer" className="mb-6">
+            <ul className="flex flex-wrap gap-x-5 gap-y-3 justify-center text-sm">
+              {FOOTER_LINKS.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="min-h-[44px] inline-flex items-center hover:text-white underline-offset-2 hover:underline"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          <div className="text-center text-sm text-gray-400">
+            <p>{SITE_CONTACT.brokerage} since September 2008 · License {SITE_CONTACT.license}</p>
+            <p className="mt-2">
+              {SITE_CONTACT.fullAddress} ·{" "}
+              <a className="hover:text-white" href={`tel:${SITE_CONTACT.phoneTel}`}>
+                {SITE_CONTACT.phoneDisplay}
+              </a>
+            </p>
+          </div>
+        </div>
       </footer>
     </>
   );
