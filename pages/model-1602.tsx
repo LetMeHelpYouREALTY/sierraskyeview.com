@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 import { CENTURY_COMMUNITIES_SELLER, PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const Model1602: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -209,6 +210,8 @@ const Model1602: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="model-1602" />
+
 
         {/* Home Search Widget - PRIMARY FOCUS */}
         <section className="py-6 bg-gray-50">
@@ -276,7 +279,7 @@ const Model1602: NextPage = () => {
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-              1,602 sq ft Homes at Sierra at Skyeview: Perfect for Northwest Las Vegas Living
+              1,602 sq ft Homes at Sierra at Skyeview in Northwest Las Vegas
             </h2>
             
             <div className="prose prose-lg max-w-none mb-12">
@@ -285,17 +288,17 @@ const Model1602: NextPage = () => {
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                Open-Concept Design Perfect for Modern Living
+                Open-Concept Design
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The 1,602 sq ft homes at Sierra at Skyeview feature an open-concept design that creates a sense of spaciousness and flow throughout the main living areas. The layout connects the kitchen, dining area, and living room, making it well suited for entertaining and everyday living. This open-concept design is ideal for Northwest Las Vegas living, allowing natural light to flow throughout the home and creating a welcoming atmosphere. The design maximizes the 1,602 sq ft footprint, ensuring every square foot is used efficiently while maintaining comfortable living spaces. The open-concept layout is particularly well-suited for the elevated location in Skye Canyon, where large windows can take advantage of mountain views and natural light.
+                The 1,602 sq ft homes at Sierra at Skyeview feature an open-concept design that creates a sense of spaciousness and flow throughout the main living areas. The layout connects the kitchen, dining area, and living room, making it well suited for entertaining and everyday living. This open-concept design allows natural light to flow throughout the home and creating a welcoming atmosphere. The design maximizes the 1,602 sq ft footprint, ensuring every square foot is used efficiently while maintaining comfortable living spaces. The open-concept layout is particularly well-suited for the elevated location in Skye Canyon, where large windows can take advantage of mountain views and natural light.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-                Three Bedrooms and 2.5 Bathrooms for Family Comfort
+                Three Bedrooms and 2.5 Bathrooms
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The 1,602 sq ft homes at Sierra at Skyeview include three bedrooms and 2.5 bathrooms, providing comfortable accommodation for families or those who need a home office or guest room. The master bedroom typically features an ensuite bathroom and walk-in closet, while the additional bedrooms share a full bathroom. The half-bath on the main level provides convenience for guests and daily living. This bedroom and bathroom configuration is ideal for Northwest Las Vegas families seeking new construction homes that offer space for growth while remaining manageable in size. The 1,602 sq ft layout provides enough space for comfortable living without the maintenance and costs associated with larger homes.
+                The 1,602 sq ft homes at Sierra at Skyeview include three bedrooms and 2.5 bathrooms, leaving room for a home office or guest room. The master bedroom typically features an ensuite bathroom and walk-in closet, while the additional bedrooms share a full bathroom. The half-bath on the main level provides convenience for guests and daily living.  The 1,602 sq ft layout provides enough space for comfortable living without the maintenance and costs associated with larger homes.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -323,7 +326,7 @@ const Model1602: NextPage = () => {
                 Investment Value in Northwest Las Vegas
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The 1,602 sq ft homes at Sierra at Skyeview represent a strong investment opportunity in Northwest Las Vegas. The combination of new construction, premium finishes, elevated location, and access to Skye Canyon amenities creates a compelling value proposition. The 1,602 sq ft size is ideal for first-time buyers, downsizers, and investors seeking manageable properties with strong appreciation potential. The Northwest Las Vegas market, particularly in master-planned communities like Skye Canyon, has shown consistent growth, making these 1,602 sq ft homes an attractive investment. Dr. Jan Duffy's realtor service when buying a new home includes market analysis to help buyers understand the investment potential of their 1,602 sq ft home purchase.
+                The 1,602 sq ft homes at Sierra at Skyeview represent a strong investment opportunity in Northwest Las Vegas. The combination of new construction, premium finishes, elevated location, and access to Skye Canyon amenities creates a compelling value proposition. The 1,602 sq ft plan is the smallest and lowest-priced of the three Sierra plans. The Northwest Las Vegas market, particularly in master-planned communities like Skye Canyon, has shown consistent growth, making these 1,602 sq ft homes an attractive investment. Dr. Jan Duffy's realtor service when buying a new home includes market analysis to help buyers understand the investment potential of their 1,602 sq ft home purchase.
               </p>
             </div>
           </div>

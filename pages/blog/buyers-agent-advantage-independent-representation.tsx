@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../../components/standard";
 const BlogPost: NextPage = () => {
   return (
     <>
@@ -116,7 +117,7 @@ const BlogPost: NextPage = () => {
               When you walk into a builder's sales office, the sales agent represents the builder—not you. Their job is to sell homes at the highest possible price with the fewest concessions. They work for the builder's interests, not yours.
             </p>
             <p className="text-white mb-4">
-              A buyer's agent, on the other hand, represents YOU exclusively. Their fiduciary duty is to protect your interests, negotiate on your behalf, and ensure you get the best possible deal. This fundamental difference can mean thousands of dollars in savings and better contract terms.
+              A buyer's agent, on the other hand, represents YOU. Their fiduciary duty is to protect your interests, negotiate on your behalf, and ensure you get the best possible deal. This fundamental difference can mean thousands of dollars in savings and better contract terms.
             </p>
 
             <h2 className="text-3xl font-bold text-white mt-8 mb-4">
@@ -130,7 +131,7 @@ const BlogPost: NextPage = () => {
               The builder's sales agent has a legal and ethical obligation to represent the builder's interests. They're trained to maximize sales price, minimize concessions, and protect the builder's bottom line. A buyer's agent has the same level of obligation—but to YOU.
             </p>
             <p className="text-white mb-4">
-              As your buyer's agent, I represent YOUR interests exclusively. I review contracts to identify potential issues, negotiate terms that protect you, and ensure you understand every aspect of your purchase. This independent representation is invaluable when making one of the largest financial decisions of your life.
+              As your buyer's agent, I represent YOUR interests. I review contracts to identify potential issues, negotiate terms that protect you, and ensure you understand every aspect of your purchase. This independent representation is invaluable when making one of the largest financial decisions of your life.
             </p>
 
             <h3 className="text-2xl font-bold text-white mt-6 mb-3">
@@ -307,7 +308,7 @@ const BlogPost: NextPage = () => {
               As your buyer's agent specializing in new construction at Sierra at Skyeview Homes, I provide:
             </p>
             <ul className="list-disc pl-6 mb-4 text-white space-y-2">
-              <li><strong>Independent representation:</strong> I represent YOU exclusively, not the builder</li>
+              <li><strong>Independent representation:</strong> I represent YOU, not the builder</li>
               <li><strong>Skye Canyon expertise:</strong> Deep knowledge of the 3,000+ foot elevation community and market</li>
               <li><strong>Negotiation power:</strong> Proven ability to secure incentives and favorable terms</li>
               <li><strong>Construction oversight:</strong> Coordinated inspections and quality control throughout construction</li>
@@ -355,6 +356,8 @@ const BlogPost: NextPage = () => {
             </div>
           </div>
         </article>
+        <HomesForSaleNearYou campaign="blog-buyers-agent-advantage-independent-representation" />
+
       </main>
 
       {/* Footer */}

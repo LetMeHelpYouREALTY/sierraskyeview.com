@@ -69,3 +69,23 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Site standard v1: calm luxury look. One accent color (bronze), serif headings. */
+:root {
+  --lux-accent: #8a6a3b;
+  --lux-accent-dark: #6f5430;
+  --lux-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+}
+h1, h2, h3, .font-serif { font-family: var(--lux-serif); letter-spacing: -0.01em; }
+@layer components {
+  .lux-section { @apply py-16 md:py-24; }
+  .lux-h1 { font-family: var(--lux-serif); @apply text-4xl md:text-6xl leading-tight mb-6; }
+  .lux-h2 { font-family: var(--lux-serif); @apply text-3xl md:text-4xl text-stone-900 leading-tight mb-4; }
+  .lux-lead { @apply text-lg text-stone-600 leading-relaxed; }
+  .lux-eyebrow { color: var(--lux-accent); @apply text-xs font-semibold uppercase tracking-[0.2em] mb-2; }
+  .lux-btn { background: var(--lux-accent); @apply text-white px-7 py-3 rounded-full font-medium min-h-[44px] inline-flex items-center justify-center transition-colors; }
+  .lux-btn:hover { background: var(--lux-accent-dark); }
+  .lux-btn-outline { border-color: var(--lux-accent); color: var(--lux-accent-dark); @apply border px-7 py-3 rounded-full font-medium min-h-[44px] inline-flex items-center justify-center bg-white transition-colors; }
+  .lux-btn-outline:hover { background: #f5f0e8; }
+  .lux-take { border-left: 3px solid var(--lux-accent); @apply bg-white p-6 md:p-8 my-8 shadow-sm; }
+}

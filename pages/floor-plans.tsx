@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const FloorPlans: NextPage = () => {
   return (
     <>
@@ -82,7 +83,7 @@ const FloorPlans: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">
-                Instantly see every available floor plan, elevation, <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunity</Link>, pricing update, and exclusive incentives for the <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Area in Skye Canyon</Link> using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.
+                Instantly see every available floor plan, elevation, <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunity</Link>, pricing update, and current incentives for the <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Area in Skye Canyon</Link> using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,6 +104,8 @@ const FloorPlans: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="floor-plans" />
+
 
         {/* Home Search CTA */}
         <section className="py-16 bg-gray-50">

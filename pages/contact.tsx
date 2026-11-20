@@ -5,6 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou, MeetDrJan } from "../components/standard";
 const CONTACT_ERROR_MESSAGE =
   "Sorry, something went wrong sending your message. Please call or text Dr. Jan Duffy at (702) 903-4687.";
 
@@ -203,6 +204,9 @@ const Contact: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="contact" />
+        <MeetDrJan campaign="contact" />
+
 
         {/* Comprehensive Content Section */}
         <section className="py-16 bg-white">
@@ -213,14 +217,14 @@ const Contact: NextPage = () => {
             
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                Contact <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> today to get expert realtor service when buying a new home at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166. Dr. Jan provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, and advocacy throughout the entire new construction process.
+                Contact <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> today to get expert realtor service when buying a new home at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166. Dr. Jan provides independent buyer representation, meaning she represents YOUR interests, not the builder's. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, and advocacy throughout the entire new construction process.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
                 Why Contact Dr. Jan Duffy for Your New Home Purchase?
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation that protects your interests and ensures you get the best value for your investment. Licensed since 2008 · 35 years in Las Vegas, with deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers navigate the new construction process with confidence. Her realtor service when buying a new home includes early access to the best lots, expert negotiation on pricing and incentives, and guidance throughout construction and closing.
+                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation that protects your interests and ensures you get the best value for your investment. With deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers navigate the new construction process with confidence. Her realtor service when buying a new home includes early access to the best lots, expert negotiation on pricing and incentives, and guidance throughout construction and closing.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -363,7 +367,6 @@ const Contact: NextPage = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Phone</h3>
                       <p className="text-gray-600 mb-2">Dr. Jan Duffy: (702) 903-4687</p>
-                      <p className="text-gray-600">Urgent: (702) 222-1964</p>
                       <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
                         Call Now
                       </a>
@@ -405,16 +408,15 @@ const Contact: NextPage = () => {
                     <div className="text-2xl mr-4">🏆</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Experience</h3>
-                      <p className="text-gray-600">Licensed since 2008 · 35 years in Las Vegas</p>
+                      <p className="text-gray-600">Licensed in Nevada since 2008</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-8 p-6 bg-blue-50 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Quick Response Guarantee</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Fastest way to reach Dr. Jan</h3>
                   <p className="text-gray-600 text-sm">
-                    Dr. Jan Duffy responds to all inquiries within 2 hours during business hours. 
-                    For urgent matters, call the urgent line at (702) 222-1964.
+                    Call (702) 903-4687 during business hours, or book a time online with the scheduler on this page.
                   </p>
                 </div>
               </div>
@@ -477,7 +479,7 @@ const Contact: NextPage = () => {
               Ready to Start Your New Home Journey?
             </h2>
             <p className="text-lg mb-8">
-              Don't wait! Sierra at Skyeview Homes is selling fast. Contact Dr. Jan Duffy today for VIP access and expert guidance.
+              Book a time with Dr. Jan Duffy to talk through Sierra at Skyeview prices, lots and timing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7029034687" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">

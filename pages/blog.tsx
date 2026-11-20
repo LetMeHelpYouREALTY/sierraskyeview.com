@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const Blog: NextPage = () => {
   const blogPosts = [
     {
@@ -139,6 +140,8 @@ const Blog: NextPage = () => {
             </p>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="blog" />
+
 
         {/* Blog Posts Grid */}
         <section className="py-16 bg-white">

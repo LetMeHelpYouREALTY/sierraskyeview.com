@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../../components/standard";
 const BlogPost: NextPage = () => {
   return (
     <>
@@ -287,6 +288,8 @@ const BlogPost: NextPage = () => {
             </div>
           </div>
         </article>
+        <HomesForSaleNearYou campaign="blog-understanding-hoa-fees-what-to-know" />
+
       </main>
 
       {/* Footer */}

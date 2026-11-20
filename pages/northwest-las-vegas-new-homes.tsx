@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const NorthwestLasVegasNewHomes: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -26,7 +27,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
     },
     {
       question: "What makes Sierra at Skyeview Homes the best choice for Northwest Las Vegas new homes?",
-      answer: "Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers new construction homes at 3,000+ foot elevation with premium finishes, smart home technology, and access to world-class community amenities. Located in zip code 89166, these homes provide elevated living with cooler temperatures, mountain views, and proximity to Mount Charleston, making them ideal for buyers seeking an alternative to traditional Las Vegas living."
+      answer: "Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers new construction homes at 3,000+ foot elevation with premium finishes, smart home technology, and access to world-class community amenities. Located in zip code 89166, these homes provide elevated living with cooler temperatures, mountain views, and proximity to Mount Charleston, for buyers seeking an alternative to traditional Las Vegas living."
     },
     {
       question: "How does Dr. Jan Duffy help buyers find new homes in Northwest Las Vegas?",
@@ -140,6 +141,8 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="northwest-las-vegas-new-homes" />
+
 
         {/* Breadcrumb Navigation */}
         <section className="bg-gray-50 py-4">
@@ -240,7 +243,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
 
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing expert realtor service when buying new construction homes in Northwest Las Vegas. As your buyer's agent for <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in Skye Canyon, Dr. Jan understands the Northwest Las Vegas market, including the unique advantages of elevated living, master-planned community benefits, and new construction considerations. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, and representation focused exclusively on protecting buyer interests.
+                <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing expert realtor service when buying new construction homes in Northwest Las Vegas. As your buyer's agent for <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in Skye Canyon, Dr. Jan understands the Northwest Las Vegas market, including the unique advantages of elevated living, master-planned community benefits, and new construction considerations. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, and representation focused on protecting buyer interests.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -261,7 +264,7 @@ const NorthwestLasVegasNewHomes: NextPage = () => {
                 Independent Buyer Representation for Northwest Las Vegas
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Dr. Jan Duffy's realtor service when buying a new home in Northwest Las Vegas includes independent buyer representation—meaning she represents your interests exclusively, not the builder's. This independent representation ensures buyers get honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. For Northwest Las Vegas new construction buyers, this independent representation is essential for protecting their investment and ensuring they get the best value.
+                Dr. Jan Duffy's realtor service when buying a new home in Northwest Las Vegas includes independent buyer representation—meaning she represents your interests, not the builder's. This independent representation ensures buyers get honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. For Northwest Las Vegas new construction buyers, this independent representation is essential for protecting their investment and ensuring they get the best value.
               </p>
             </div>
           </div>

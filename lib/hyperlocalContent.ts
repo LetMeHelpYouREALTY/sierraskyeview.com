@@ -175,7 +175,7 @@ type VariantCopy = {
 
 export const VARIANT_COPY: Record<HyperlocalPageVariant, VariantCopy> = {
   home: {
-    headline: "Hyperlocal buyer representation for Sierra at Skyeview (89166)",
+    headline: "Buyer representation for Sierra at Skyeview (89166)",
     lead: `Sierra at Skyeview is Century Communities’ two-story Skyeview collection in Skye Canyon—${COMMUNITY_FACTS.highwayAccess}, ZIP ${COMMUNITY_FACTS.zip}. Dr. Jan Duffy works this pocket daily: lot orientation, incentives, and contract terms that protect you—not the builder.`,
     bullets: [
       `${COMMUNITY_FACTS.acreageLabel} with ${AMENITY_FACTS.skyeCanyonPark}`,
@@ -212,7 +212,7 @@ export const VARIANT_COPY: Record<HyperlocalPageVariant, VariantCopy> = {
   },
   about: {
     headline: "A Skye Canyon–specialist buyer’s agent, not a builder desk",
-    lead: "Dr. Jan Duffy (BHHS Nevada Properties, license S.0197614.LLC) focuses realtor service when buying a new home on Sierra at Skyeview inventory, Skyeview sister collections, and the 89166 northwest corridor.",
+    lead: "Dr. Jan Duffy focuses realtor service when buying a new home on Sierra at Skyeview inventory, Skyeview sister collections, and the 89166 northwest corridor.",
     bullets: [
       "Independent advocacy—your interests, not Century Communities’ quota",
       `Local fluency: ${COMMUNITY_FACTS.elevationLabel}, Spring Mountains access, and NW freeway timing`,
@@ -357,5 +357,5 @@ export const VARIANT_COPY: Record<HyperlocalPageVariant, VariantCopy> = {
 };
 
 export function formatResearchFooter(): string {
-  return `Hyperlocal figures researched ${HYPERLOCAL_RESEARCH_AS_OF}; confirm live builder, HOA, and MLS data before relying on any number.`;
+  return `Local figures researched ${HYPERLOCAL_RESEARCH_AS_OF}; confirm live builder, HOA, and MLS data before relying on any number.`;
 }

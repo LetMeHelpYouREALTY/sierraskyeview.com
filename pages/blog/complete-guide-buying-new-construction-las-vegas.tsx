@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../../components/standard";
 const BlogPost: NextPage = () => {
   return (
     <>
@@ -105,7 +106,7 @@ const BlogPost: NextPage = () => {
           {/* Article Content */}
           <div className="prose prose-lg max-w-none prose-gray">
             <p className="lead text-xl text-white mb-6 font-medium">
-              Buying a new construction home in Las Vegas is an exciting journey, but it comes with unique considerations that differ from purchasing a resale property. As a buyer's agent specializing in new construction at Sierra at Skyeview Homes, I've helped countless families navigate this process successfully.
+              Buying a new construction home in Las Vegas is an exciting journey, but it comes with unique considerations that differ from purchasing a resale property. As a buyer's agent specializing in new construction at Sierra at Skyeview Homes, I've helped many buyers navigate this process successfully.
             </p>
 
             <h2 className="text-3xl font-bold text-white mt-8 mb-4">
@@ -229,6 +230,8 @@ const BlogPost: NextPage = () => {
             </div>
           </div>
         </article>
+        <HomesForSaleNearYou campaign="blog-complete-guide-buying-new-construction-las-vegas" />
+
       </main>
 
       {/* Footer */}

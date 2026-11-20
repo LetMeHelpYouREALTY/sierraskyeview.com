@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 import { CENTURY_COMMUNITIES_SELLER, PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const Model1965: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -209,6 +210,8 @@ const Model1965: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="model-1965" />
+
 
         {/* Breadcrumb Navigation */}
         <section className="bg-gray-50 py-4">
@@ -315,7 +318,7 @@ const Model1965: NextPage = () => {
                 <p className="text-2xl font-bold text-gray-900">1,965 sq ft</p>
               </div>
               <div>
-                <p className="text-sm text-gray-600 mb-1">Best For</p>
+                <p className="text-sm text-gray-600 mb-1">Size</p>
                 <p className="text-2xl font-bold text-gray-900">Maximum Space</p>
               </div>
             </div>

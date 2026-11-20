@@ -5,6 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { AreaFacts, DrJanTake, HomesForSaleNearYou } from "../components/standard";
 const Community: NextPage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const amenities = [
@@ -93,7 +94,7 @@ const Community: NextPage = () => {
                   "name": "What amenities are available in Skye Canyon?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Skye Canyon features recreation centers, fitness facilities, parks, walking trails, sports courts, splash pads, and neighborhood schools. The master-planned community is designed to enhance quality of life with comprehensive amenities that support active living, family activities, and community engagement."
+                    "text": "Skye Canyon features recreation centers, fitness facilities, parks, walking trails, sports courts, splash pads, and neighborhood schools. The master-planned community is designed to enhance quality of life with comprehensive amenities that support active living, recreation, and community engagement."
                   }
                 },
                 {
@@ -173,6 +174,12 @@ const Community: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="community" />
+        <div className="max-w-4xl mx-auto px-4">
+          <DrJanTake />
+        </div>
+        <AreaFacts campaign="community" />
+
 
         {/* Comprehensive Content Section - Skye Canyon Overview */}
         <section className="py-16 bg-white">

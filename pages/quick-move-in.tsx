@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const QuickMoveIn: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -195,6 +196,8 @@ const QuickMoveIn: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="quick-move-in" />
+
 
         {/* Available Homes - Home Search Widgets */}
         <section className="py-16 bg-gray-50">
@@ -404,7 +407,7 @@ const QuickMoveIn: NextPage = () => {
                 Why Work With Dr. Jan Duffy for Quick Move-In Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's buyer representation provides early insight into quick move-in homes in the Sierra at Skyeview Area and expert guidance throughout the home buying process. Located at 3,000+ foot elevation in Skye Canyon with access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's.
+                Dr. Jan Duffy's buyer representation provides early insight into quick move-in homes in the Sierra at Skyeview Area and expert guidance throughout the home buying process. Located at 3,000+ foot elevation in Skye Canyon with access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests—not the builder's.
               </p>
             </div>
 
@@ -415,8 +418,8 @@ const QuickMoveIn: NextPage = () => {
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🤝</div>
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-2">Exclusive Access</h4>
-                      <p className="text-gray-600">Get first access to quick move-in homes before they're listed publicly, ensuring you have the best selection available.</p>
+                      <h4 className="text-lg font-semibold text-gray-900 mb-2">Inventory Updates</h4>
+                      <p className="text-gray-600">Get alerts on quick move-in homes as the builder posts them.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -464,7 +467,7 @@ const QuickMoveIn: NextPage = () => {
                     <div className="text-2xl mr-4">🏛️</div>
                     <div>
                       <p className="font-semibold text-gray-900">Experience</p>
-                      <p className="text-gray-600">Licensed since 2008 · 35 years in Las Vegas</p>
+                      <p className="text-gray-600">Licensed in Nevada since 2008</p>
                     </div>
                   </div>
                 </div>

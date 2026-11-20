@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import { PAGE_AGENT_REFERENCE, SITE_URL } from "../lib/schemaIds";
+import { HomesForSaleNearYou } from "../components/standard";
 const LISTING_CONSULTATION_BASE =
   "https://calendly.com/drjanduffy/listing-consultation?utm_source=sierraskyeview.com&utm_medium=website&utm_content=";
 
@@ -104,6 +105,8 @@ const SellToBuySierra: NextPage = () => {
             the builder.
           </p>
         </article>
+        <HomesForSaleNearYou campaign="sell-your-home-to-buy-at-sierra-skyeview" />
+
       </main>
 
       <footer className="bg-gray-900 text-white py-10">
