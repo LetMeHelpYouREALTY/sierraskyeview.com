@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../../components/standard";
 const BlogPost: NextPage = () => {
   return (
     <>
@@ -105,7 +106,7 @@ const BlogPost: NextPage = () => {
           {/* Article Content */}
           <div className="prose prose-lg max-w-none prose-gray">
             <p className="lead text-xl text-white mb-6 font-medium">
-              When searching for your dream home in Las Vegas, location matters. Skye Canyon stands out as one of the city's premier master-planned communities, offering a unique combination of natural beauty, modern amenities, and elevated living. As a buyer's agent specializing in Northwest Las Vegas, I've seen firsthand why Skye Canyon continues to attract families, professionals, and retirees seeking an exceptional quality of life. <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Explore the Skye Canyon community</Link> and <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">view available homes at Sierra at Skyeview</Link>.
+              When searching for your dream home in Las Vegas, location matters. Skye Canyon stands out as one of the city's premier master-planned communities, offering a unique combination of natural beauty, modern amenities, and elevated living. As a buyer's agent specializing in Northwest Las Vegas, I've seen firsthand why Skye Canyon continues to attract buyers seeking an exceptional quality of life. <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Explore the Skye Canyon community</Link> and <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">view available homes at Sierra at Skyeview</Link>.
             </p>
 
             <h2 className="text-3xl font-bold text-white mt-8 mb-4">
@@ -195,11 +196,10 @@ const BlogPost: NextPage = () => {
             </p>
             <ul className="list-disc pl-6 mb-4 text-white space-y-2">
               <li><strong>Outdoor lifestyle:</strong> Parks, trails, and recreation centers across the 1,700-acre master plan</li>
-              <li><strong>Professionals:</strong> Easy commute to Las Vegas with elevated living</li>
+              <li><strong>Commuters:</strong> U.S. 95 access toward the rest of Las Vegas</li>
               <li><strong>Outdoor Enthusiasts:</strong> Proximity to Mount Charleston and extensive trail system</li>
-              <li><strong>Retirees:</strong> Active lifestyle amenities and peaceful setting</li>
-              <li><strong>First-Time Buyers:</strong> New construction options with modern features</li>
-              <li><strong>Upsizers:</strong> Luxury homes with premium finishes and space</li>
+              <li><strong>New construction:</strong> Current builder collections with modern features</li>
+              <li><strong>Larger plans:</strong> Homes with premium finishes and space</li>
             </ul>
 
             <h2 className="text-3xl font-bold text-white mt-8 mb-4">
@@ -217,7 +217,7 @@ const BlogPost: NextPage = () => {
                 Ready to Explore Skye Canyon?
               </h3>
               <p className="text-gray-900 mb-4">
-                Discover available homes at Sierra at Skyeview Homes and learn more about the Skye Canyon lifestyle. Contact me today to schedule a private tour and see why so many families are choosing Skye Canyon as their home.
+                Discover available homes at Sierra at Skyeview Homes and learn more about the Skye Canyon lifestyle. Contact me today to schedule a private tour and see what Skye Canyon offers as their home.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="tel:7029034687" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors min-h-[44px] inline-flex items-center justify-center">
@@ -248,6 +248,8 @@ const BlogPost: NextPage = () => {
             </div>
           </div>
         </article>
+        <HomesForSaleNearYou campaign="blog-why-choose-skye-canyon-buyers-guide" />
+
       </main>
 
       {/* Footer */}

@@ -1,5 +1,6 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
+import { SKYE_CANYON_PARK_GEO } from "../lib/areaFacts";
 import {
   ORGANIZATION_ID,
   REAL_ESTATE_AGENT_ID,
@@ -13,7 +14,7 @@ const ORGANIZATION_SCHEMA = {
   "@id": ORGANIZATION_ID,
   "name": "Sierra at Skyeview Homes",
   "url": SITE_URL,
-  "logo": `${SITE_URL}/favicon.ico`,
+  "logo": `${SITE_URL}/headshot-180.png`,
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-702-903-4687",
@@ -34,12 +35,12 @@ const WEBSITE_SCHEMA = {
 
 const REAL_ESTATE_AGENT_SCHEMA = {
   "@context": "https://schema.org",
-  "@type": "RealEstateAgent",
+  "@type": ["RealEstateAgent", "LocalBusiness"],
   "@id": REAL_ESTATE_AGENT_ID,
   "name": "Dr. Jan Duffy",
   "description":
     "Buyer's agent for Sierra at Skyeview new construction homes in Skye Canyon, Northwest Las Vegas.",
-  "image": `${SITE_URL}/design%2004_new%202.jpg`,
+  "image": `${SITE_URL}/dr-jan-duffy-headshot.jpg`,
   "jobTitle": "Buyer's Agent & New Home Construction Specialist",
   "url": `${SITE_URL}/about`,
   "worksFor": { "@id": ORGANIZATION_ID },
@@ -59,6 +60,7 @@ const REAL_ESTATE_AGENT_SCHEMA = {
     "longitude": "-115.2848"
   },
   "areaServed": SIERRA_AT_SKYEVIEW_AREA_SERVED,
+  "priceRange": "$$",
   "knowsAbout": [
     "Sierra at Skyeview Homes",
     "Skye Canyon new construction",
@@ -108,6 +110,28 @@ const REAL_ESTATE_AGENT_SCHEMA = {
   }
 };
 
+const PLACE_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "@id": `${SITE_URL}/#skye-canyon`,
+  "name": "Skye Canyon, Las Vegas",
+  "description": "1,000-acre master-planned community at U.S. 95 and Skye Canyon Park Drive, Las Vegas, NV 89166.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10111 W. Skye Canyon Park Drive",
+    "addressLocality": "Las Vegas",
+    "addressRegion": "NV",
+    "postalCode": "89166",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": SKYE_CANYON_PARK_GEO.latitude,
+    "longitude": SKYE_CANYON_PARK_GEO.longitude
+  },
+  "containsPlace": { "@type": "Place", "name": "Sierra at Skyeview" }
+};
+
 class MyDocument extends Document {
   render() {
     return (
@@ -117,7 +141,9 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="robots" content="index, follow" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" sizes="48x48" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/headshot-32.png" />
+          <link rel="apple-touch-icon" href="/headshot-180.png" />
           <link rel="sitemap" type="application/xml" href="https://www.sierraskyeview.com/sitemap.xml" />
           
           {/* Google Search Console Verification */}
@@ -209,6 +235,10 @@ class MyDocument extends Document {
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(REAL_ESTATE_AGENT_SCHEMA) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(PLACE_SCHEMA) }}
           />
         </Head>
         <body className="bg-black antialiased">

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const HomesNearMountCharleston: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -22,10 +23,10 @@ const HomesNearMountCharleston: NextPage = () => {
   const faqItems = [
     {
       question: "Why choose homes near Mount Charleston in Northwest Las Vegas?",
-      answer: "Homes near Mount Charleston offer a unique lifestyle at 3,000+ foot elevation with cooler temperatures, stunning mountain views, and easy access to outdoor recreation. Sierra at Skyeview Homes in Skye Canyon provides this elevated living experience just 30 minutes from Mount Charleston, making it perfect for those who want mountain proximity while staying close to Las Vegas amenities."
+      answer: "Homes near Mount Charleston offer a unique lifestyle at 3,000+ foot elevation with cooler temperatures, stunning mountain views, and easy access to outdoor recreation. Sierra at Skyeview Homes in Skye Canyon provides this elevated living experience just 30 minutes from Mount Charleston, for buyers who want mountain proximity while staying close to Las Vegas amenities."
     },
     {
-      question: "What makes Sierra at Skyeview Homes ideal for Mount Charleston area living?",
+      question: "What makes Sierra at Skyeview Homes a fit for Mount Charleston area living?",
       answer: "Sierra at Skyeview Homes is located at 3,000+ foot elevation in Skye Canyon, Northwest Las Vegas, offering cooler temperatures year-round compared to the Las Vegas Valley floor. The community provides easy access to Mount Charleston for hiking, skiing, and outdoor activities, while maintaining proximity to Las Vegas shopping, dining, and entertainment. Dr. Jan Duffy specializes in helping buyers find the perfect home in this unique elevated community."
     },
     {
@@ -140,6 +141,8 @@ const HomesNearMountCharleston: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="homes-near-mount-charleston" />
+
 
         {/* Breadcrumb Navigation */}
         <section className="bg-gray-50 py-4">
@@ -233,7 +236,7 @@ const HomesNearMountCharleston: NextPage = () => {
 
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing expert realtor service when buying new construction homes near Mount Charleston in Northwest Las Vegas. As your buyer's agent for <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in Skye Canyon, Dr. Jan understands the unique considerations of elevated living and mountain proximity. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, and representation focused exclusively on protecting your interests.
+                <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing expert realtor service when buying new construction homes near Mount Charleston in Northwest Las Vegas. As your buyer's agent for <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in Skye Canyon, Dr. Jan understands the unique considerations of elevated living and mountain proximity. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, and representation focused on protecting your interests.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -254,7 +257,7 @@ const HomesNearMountCharleston: NextPage = () => {
                 Negotiation and Buyer Representation Services
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Dr. Jan Duffy's realtor service when buying a new home near Mount Charleston includes expert negotiation to secure the best terms, pricing, and incentives. As your buyer's agent, she represents your interests exclusively—not the builder's. Her negotiation expertise covers lot premiums, upgrade packages, closing costs, and builder incentives. This independent representation ensures buyers get maximum value when purchasing homes near Mount Charleston at Sierra at Skyeview Homes in Skye Canyon.
+                Dr. Jan Duffy's realtor service when buying a new home near Mount Charleston includes expert negotiation to secure the best terms, pricing, and incentives. As your buyer's agent, she represents your interests—not the builder's. Her negotiation expertise covers lot premiums, upgrade packages, closing costs, and builder incentives. This independent representation ensures buyers get maximum value when purchasing homes near Mount Charleston at Sierra at Skyeview Homes in Skye Canyon.
               </p>
             </div>
           </div>

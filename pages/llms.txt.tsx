@@ -7,7 +7,7 @@ const LlmsTxt = () => null;
 
 const buildLlmsTxt = () => `
 # Sierra at Skyeview Homes — buyer resource site
-# Curated by Dr. Jan Duffy, Nevada REALTOR (license S.0197614), licensed since 2008 · 35 years in Las Vegas. Independent buyer's agent; not the builder.
+# Curated by Dr. Jan Duffy, buyer's agent for Sierra at Skyeview and Skye Canyon. She represents buyers, not the builder.
 
 > Sierra at Skyeview is a Century Communities neighborhood of two-story homes in Skye Canyon, Las Vegas, NV 89166.
 > Builder page: ${SIERRA_PRICING_SOURCE}
@@ -26,6 +26,13 @@ const buildLlmsTxt = () => `
 - ${SITE}/qa : Buyer FAQs (pricing, HOA, buyer agent role)
 - ${SITE}/sell-your-home-to-buy-at-sierra-skyeview : Sell current home to buy at Sierra at Skyeview
 - ${SITE}/about : About Dr. Jan Duffy, buyer's agent
+
+## Skye Canyon facts (retrieved 2026-11-20; sources on the home page)
+- Skye Canyon: 1,000-acre master plan at U.S. 95 and Skye Canyon Park Drive, ZIP 89166, planned for 6,500 homes (skyecanyon.com/facts).
+- Recent sales: 309 Skye Canyon closings at a $535,000 median, 12 months ending 2026-09-18 (Nevada Real Estate Group, MLS records).
+- Amenities: 15-acre Skye Canyon Park, 8,142 sq ft Skye Center, 9,663 sq ft Skye Fitness, seven parks (skyecanyon.com).
+- Some parcels sit in City of Las Vegas SIDs 609 and 610, final payments 2047 and 2048 (Nevada Real Estate Group).
+- Zoned schools (names only, confirm by address with CCSD): Kenneth Divich Elementary, Edmundo Escobedo Sr. Middle, Arbor View High.
 
 ## Pricing note
 Prices change often, so this file lists none. Site pages show Century Communities pricing as of ${SIERRA_PRICING_AS_OF}, subject to change; confirm current pricing on the builder page above before writing an offer.

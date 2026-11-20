@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../../components/standard";
 const BlogPost: NextPage = () => {
   return (
     <>
@@ -187,7 +188,7 @@ const BlogPost: NextPage = () => {
               Immediate Availability
             </h3>
             <p className="text-white mb-4">
-              Resale homes are available immediately. You can move in as soon as closing is complete, making them ideal for buyers with urgent timelines or those who need to relocate quickly.
+              Resale homes are available immediately. You can move in as soon as closing is complete, which helps when you have an urgent timeline or need to relocate quickly.
             </p>
 
             <h3 className="text-2xl font-bold text-white mt-6 mb-3">
@@ -366,6 +367,8 @@ const BlogPost: NextPage = () => {
             </div>
           </div>
         </article>
+        <HomesForSaleNearYou campaign="blog-new-construction-vs-resale-which-right-for-you" />
+
       </main>
 
       {/* Footer */}

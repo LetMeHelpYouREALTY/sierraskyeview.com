@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const NewBuildHomes: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -209,7 +210,7 @@ const NewBuildHomes: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Discover exceptional new build homes in the Sierra at Skyeview Area, located within Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
+                Discover exceptional new build homes in the Sierra at Skyeview Area, located within Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance, and a second set of eyes on every contract.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -230,6 +231,8 @@ const NewBuildHomes: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="new-build-homes" />
+
 
         {/* New Build Benefits */}
         <section className="py-16 bg-gray-50">
@@ -273,7 +276,7 @@ const NewBuildHomes: NextPage = () => {
               Browse Every Home & Quick Move-In Opportunity
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Use Dr. Jan Duffy's private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and exclusive incentives for the Sierra at Skyeview Area in Skye Canyon. No PDFs—just real-time data for this premier 3,000+ foot elevation community with access to Mount Charleston.
+              Use Dr. Jan Duffy's private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and current incentives for the Sierra at Skyeview Area in Skye Canyon. No PDFs—just real-time data for this premier 3,000+ foot elevation community with access to Mount Charleston.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
               <div className="bg-gray-50 rounded-lg p-6 shadow">
@@ -427,26 +430,26 @@ const NewBuildHomes: NextPage = () => {
                 Why Choose Dr. Jan Duffy for New Build Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's buyer representation provides exclusive benefits and expert guidance for new build home buyers in the Sierra at Skyeview Area. Located at 3,000+ foot elevation in Skye Canyon with stunning mountain views and access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's.
+                Dr. Jan Duffy's buyer representation provides independent guidance for new build home buyers in the Sierra at Skyeview Area. Located at 3,000+ foot elevation in Skye Canyon with stunning mountain views and access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests—not the builder's.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Exclusive Buyer Benefits</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Buyer Benefits</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🎯</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Early Lot Selection</h4>
-                      <p className="text-gray-600">Get first access to the best lots and home sites before they're released to the general public.</p>
+                      <p className="text-gray-600">Get help comparing lots and home sites as the builder releases them.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">💰</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Special Pricing & Incentives</h4>
-                      <p className="text-gray-600">Access to exclusive pricing, incentives, and upgrade packages not always available to other buyers through Dr. Jan's buyer representation.</p>
+                      <p className="text-gray-600">Guidance on pricing, incentives, and upgrade packages not always available to other buyers through Dr. Jan's buyer representation.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -494,7 +497,7 @@ const NewBuildHomes: NextPage = () => {
                     <div className="text-2xl mr-4">🎓</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Licensed Professional</h4>
-                      <p className="text-gray-600">Licensed REALTOR® licensed since 2008 · 35 years in Las Vegas, with ongoing education and professional development.</p>
+                      <p className="text-gray-600">Nevada REALTOR® licensed since 2008, with ongoing education and professional development.</p>
                     </div>
                   </div>
                 </div>

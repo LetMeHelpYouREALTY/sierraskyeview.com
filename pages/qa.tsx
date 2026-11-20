@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const QA: NextPage = () => {
   const [openItems, setOpenItems] = useState<number[]>([]);
 
@@ -18,7 +19,7 @@ const QA: NextPage = () => {
   const faqs = [
     {
       question: "How much are the HOA fees at Sierra at Skyeview Homes?",
-      answer: "The monthly HOA fee for Skye Canyon master community is approximately $83. The Sierra at Skyeview Area may have additional sub-HOA fees. These fees contribute to maintaining community amenities including the recreation center, fitness center, parks, trails, sports courts, splash pads, and neighborhood schools. The exact fees can vary and may change annually based on community budget needs."
+      answer: "Every Skye Canyon home pays the master association, which covers Skye Canyon Park, the Skye Center and Skye Fitness. Some neighborhoods add their own fee, and some parcels sit in City of Las Vegas special improvement districts 609 and 610, with final payments in 2047 and 2048. Ask for the current association budget and the lot's assessment before you write an offer."
     },
     {
       question: "What are the starting prices for homes at Sierra at Skyeview Homes?",
@@ -66,7 +67,7 @@ const QA: NextPage = () => {
     },
     {
       question: "How does Dr. Jan Duffy help with the home buying process?",
-      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction at Sierra at Skyeview Homes in Skye Canyon. She represents YOUR interests exclusively—not the builder's. Licensed since 2008 · 35 years in Las Vegas, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon's unique 3,000+ foot elevation community, proximity to Mount Charleston, and the entire Las Vegas metro area."
+      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction at Sierra at Skyeview Homes in Skye Canyon. She represents YOUR interests—not the builder's. She offers market expertise, negotiation power, and deep knowledge of Skye Canyon's unique 3,000+ foot elevation community, proximity to Mount Charleston, and the entire Las Vegas metro area."
     },
     {
       question: "What is the highest temperature ever recorded in Las Vegas?",
@@ -187,6 +188,8 @@ const QA: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="qa" />
+
 
         {/* FAQ Section */}
         <section className="py-16 bg-gray-50">

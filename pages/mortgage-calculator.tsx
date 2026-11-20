@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const MortgageCalculator: NextPage = () => {
   const [homePrice, setHomePrice] = useState(419990);
   const [downPayment, setDownPayment] = useState(83998);
@@ -109,6 +110,8 @@ const MortgageCalculator: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="mortgage-calculator" />
+
 
         {/* Calculator Section */}
         <section className="py-16 bg-gray-50">
@@ -317,7 +320,7 @@ const MortgageCalculator: NextPage = () => {
               Ready to Get Pre-Approved?
             </h2>
             <p className="text-lg mb-8">
-              Don't wait! Sierra at Skyeview Homes is selling fast. Get pre-approved today with Dr. Jan Duffy's expert guidance and lender network.
+              Get pre-approved before you tour, so you can compare the builder's lender incentive with an outside quote.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7029034687" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">

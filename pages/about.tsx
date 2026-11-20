@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou, MeetDrJan } from "../components/standard";
 const About: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -75,7 +76,7 @@ const About: NextPage = () => {
                   "name": "Why should I use Dr. Jan Duffy as my buyer's agent for Sierra at Skyeview Homes?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Dr. Jan Duffy provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. With 20+ years of Las Vegas real estate expertise and deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers get the best lots, negotiate incentives, and protect their investment throughout the new construction process."
+                    "text": "Dr. Jan Duffy provides independent buyer representation, meaning she represents YOUR interests, not the builder's. With deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers get the best lots, negotiate incentives, and protect their investment throughout the new construction process."
                   }
                 },
                 {
@@ -83,7 +84,7 @@ const About: NextPage = () => {
                   "name": "What makes Dr. Jan Duffy different from builder sales agents?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Dr. Jan Duffy is an independent buyer's agent who represents your interests exclusively, not the builder's. Builder sales agents are compensated by and represent the builder, creating a conflict of interest. Dr. Jan provides honest market analysis, expert negotiation, and advocacy focused on protecting your investment and ensuring you get the best value."
+                    "text": "Dr. Jan Duffy is an independent buyer's agent who represents your interests, not the builder's. Builder sales agents are compensated by and represent the builder, creating a conflict of interest. Dr. Jan provides honest market analysis, expert negotiation, and advocacy focused on protecting your investment and ensuring you get the best value."
                   }
                 },
                 {
@@ -146,7 +147,7 @@ const About: NextPage = () => {
               Dr. Jan Duffy: Expert Realtor Service When Buying a New Home in Northwest Las Vegas
             </h1>
             <p className="text-xl mb-6 max-w-3xl mx-auto">
-              New construction at Sierra at Skyeview Homes in Skye Canyon moves fast. You need a Buyer's Agent who represents YOUR interests exclusively—not the builder's. Licensed since 2008 · 35 years in Las Vegas and with deep knowledge of Skye Canyon's 3,000+ foot elevation community, Dr. Jan knows which lots appreciate fastest, what upgrades to fund versus skip, how to negotiate incentives, and why your contract matters more than any sales pitch. As your Buyer's Agent, she spots opportunities other buyers miss.
+              New construction at Sierra at Skyeview Homes in Skye Canyon moves fast. You need a Buyer's Agent who represents YOUR interests—not the builder's. With deep knowledge of Skye Canyon's 3,000+ foot elevation community, Dr. Jan knows which lots appreciate fastest, what upgrades to fund versus skip, how to negotiate incentives, and why your contract matters more than any sales pitch. As your Buyer's Agent, she spots opportunities other buyers miss.
             </p>
             <p className="text-sm uppercase tracking-wide text-blue-100 mb-6">
               Las Vegas REALTOR® | New Construction Specialist | Las Vegas Real Estate Expert
@@ -173,6 +174,9 @@ const About: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="about" />
+        <MeetDrJan campaign="about" />
+
 
         {/* Comprehensive Content Section */}
         <section className="py-16 bg-white">
@@ -183,14 +187,14 @@ const About: NextPage = () => {
             
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166. Licensed since 2008 · 35 years in Las Vegas and with specialized knowledge of Skye Canyon's master-planned community, Dr. Jan provides expert realtor service when buying a new home, ensuring buyers get the best value, lot selection, and terms for their investment.
+                <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166. With specialized knowledge of Skye Canyon's master-planned community, Dr. Jan provides expert realtor service when buying a new home, ensuring buyers get the best value, lot selection, and terms for their investment.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
                 Independent Buyer Representation for New Construction
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. This independent representation is crucial for new construction purchases because it ensures you receive honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. Unlike builder sales agents who represent the builder's interests, Dr. Jan's realtor service when buying a new home is focused entirely on protecting your investment and ensuring you get the best value, terms, and lot selection for your Sierra at Skyeview Homes purchase in Skye Canyon, Northwest Las Vegas.
+                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests, not the builder's. This independent representation is crucial for new construction purchases because it ensures you receive honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. Unlike builder sales agents who represent the builder's interests, Dr. Jan's realtor service when buying a new home is focused entirely on protecting your investment and ensuring you get the best value, terms, and lot selection for your Sierra at Skyeview Homes purchase in Skye Canyon, Northwest Las Vegas.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -240,12 +244,12 @@ const About: NextPage = () => {
                   Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon, Las Vegas, NV</Link>.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
-                  With deep expertise in the Las Vegas real estate market and specialized knowledge of <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's master-planned community</Link>, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction homes</Link> at Sierra at Skyeview Homes. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, Sierra at Skyeview Area offers a unique lifestyle. Dr. Jan's collaborative approach with development teams gives clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she exclusively represents YOUR interests as your <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Buyer's Agent</Link>. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> to learn more.
+                  With deep expertise in the Las Vegas real estate market and specialized knowledge of <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's master-planned community</Link>, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction homes</Link> at Sierra at Skyeview Homes. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, Sierra at Skyeview Area offers a unique lifestyle. Dr. Jan's collaborative approach with development teams gives clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she represents YOUR interests as your <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Buyer's Agent</Link>. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> to learn more.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
-                    <span className="text-gray-700">Licensed since 2008 · 35 years in Las Vegas</span>
+                    <span className="text-gray-700">Licensed in Nevada since 2008</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
@@ -328,47 +332,20 @@ const About: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🎯</div>
                 <h3 className="text-xl font-bold mb-2">Las Vegas Specialist</h3>
-                <p className="text-gray-300">Licensed since 2008 · 35 years in Las Vegas. Deep knowledge of Skye Canyon and the entire metro area.</p>
+                <p className="text-gray-300">Deep knowledge of Skye Canyon and the entire metro area.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Testimonials */}
+        {/* Reviews */}
         <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                What Clients Say
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Hear from satisfied clients who have worked with Dr. Jan Duffy for their new home construction needs.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
-                <p className="text-gray-600 mb-4">
-                  "Dr. Jan Duffy made our new home buying process seamless. Her expertise with new construction and negotiation skills saved us thousands of dollars."
-                </p>
-                <p className="font-semibold text-gray-900">- Sarah & Mike Johnson</p>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
-                <p className="text-gray-600 mb-4">
-                  "We couldn't have asked for a better real estate agent. Dr. Jan's knowledge of Skye Canyon and the Las Vegas market, combined with her independent advocacy for Skye Canyon buyers, was invaluable."
-                </p>
-                <p className="font-semibold text-gray-900">- Robert & Lisa Chen</p>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
-                <p className="text-gray-600 mb-4">
-                  "Dr. Jan Duffy is the ultimate professional. She guided us through every step of the construction process and ensured we got the best deal possible."
-                </p>
-                <p className="font-semibold text-gray-900">- David & Maria Rodriguez</p>
-              </div>
-            </div>
+          <div className="max-w-4xl mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Client reviews</h2>
+            <p className="text-lg text-gray-600 mb-6">
+              Clients post reviews of Dr. Jan on Realtor.com and Zillow. Read them where they were written.
+            </p>
+            <Link href="/reviews" className="lux-btn-outline">See where to read reviews</Link>
           </div>
         </section>
 
@@ -387,13 +364,13 @@ const About: NextPage = () => {
               <div className="bg-white rounded-lg p-6 shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Why should I use Dr. Jan Duffy as my buyer's agent for Sierra at Skyeview Homes?</h3>
                 <p className="text-gray-700">
-                  Dr. Jan Duffy provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. Licensed since 2008 · 35 years in Las Vegas, with deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers get the best lots, negotiate incentives, and protect their investment throughout the new construction process.
+                  Dr. Jan Duffy provides independent buyer representation, meaning she represents YOUR interests, not the builder's. With deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers get the best lots, negotiate incentives, and protect their investment throughout the new construction process.
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What makes Dr. Jan Duffy different from builder sales agents?</h3>
                 <p className="text-gray-700">
-                  Dr. Jan Duffy is an independent buyer's agent who represents your interests exclusively, not the builder's. Builder sales agents are compensated by and represent the builder, creating a conflict of interest. Dr. Jan provides honest market analysis, expert negotiation, and advocacy focused on protecting your investment and ensuring you get the best value.
+                  Dr. Jan Duffy is an independent buyer's agent who represents your interests, not the builder's. Builder sales agents are compensated by and represent the builder, creating a conflict of interest. Dr. Jan provides honest market analysis, expert negotiation, and advocacy focused on protecting your investment and ensuring you get the best value.
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg">

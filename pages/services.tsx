@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { SIERRA_AT_SKYEVIEW_AREA_SERVED } from "../lib/sierraAreaServed";
 import { PAGE_AGENT_REFERENCE } from "../lib/schemaIds";
 
+import { HomesForSaleNearYou } from "../components/standard";
 const Services: NextPage = () => {
   const [showMobileCTA, setShowMobileCTA] = useState(false);
 
@@ -52,8 +53,8 @@ const Services: NextPage = () => {
         "Early phase updates for Sierra at Skyeview Homes",
         "Priority lot strategies in Skye Canyon",
         "Buyer's Agent representation",
-        "Exclusive buyer incentives",
-        "Negotiation exclusively focused on your interests"
+        "Builder incentive review",
+        "Negotiation focused on your interests"
       ]
     },
     {
@@ -171,7 +172,7 @@ const Services: NextPage = () => {
                   "name": "How does Dr. Jan Duffy's realtor service when buying a new home differ from builder sales agents?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Her realtor service when buying a new home ensures honest market analysis, expert negotiation, and advocacy focused on protecting your investment."
+                    "text": "Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests, not the builder's. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Her realtor service when buying a new home ensures honest market analysis, expert negotiation, and advocacy focused on protecting your investment."
                   }
                 },
                 {
@@ -249,6 +250,8 @@ const Services: NextPage = () => {
             </div>
           </div>
         </section>
+        <HomesForSaleNearYou campaign="services" />
+
 
         {/* Breadcrumb Navigation */}
         <section className="bg-gray-50 py-4">
@@ -270,7 +273,7 @@ const Services: NextPage = () => {
             
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-lg text-gray-700 mb-6">
-                When purchasing a new construction home at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, having expert realtor service when buying a new home is essential for protecting your investment and ensuring you get the best value. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing comprehensive realtor service when buying a new home, offering independent buyer representation that focuses exclusively on your interests, not the builder's. Her realtor service when buying a new home includes market analysis, lot selection guidance, negotiation expertise, construction oversight, and advocacy throughout the entire process.
+                When purchasing a new construction home at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, having expert realtor service when buying a new home is essential for protecting your investment and ensuring you get the best value. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing comprehensive realtor service when buying a new home, offering independent buyer representation that focuses on your interests, not the builder's. Her realtor service when buying a new home includes market analysis, lot selection guidance, negotiation expertise, construction oversight, and advocacy throughout the entire process.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -284,7 +287,7 @@ const Services: NextPage = () => {
                 Independent Buyer Representation for New Construction
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                The most important aspect of realtor service when buying a new home is independent buyer representation. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Dr. Jan Duffy's realtor service when buying a new home provides independent representation, meaning she represents YOUR interests exclusively. This independent representation ensures you receive honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. Her realtor service when buying a new home is focused entirely on protecting your investment and ensuring you get the best value, terms, and lot selection for your Sierra at Skyeview Homes purchase.
+                The most important aspect of realtor service when buying a new home is independent buyer representation. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Dr. Jan Duffy's realtor service when buying a new home provides independent representation, meaning she represents YOUR interests. This independent representation ensures you receive honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. Her realtor service when buying a new home is focused entirely on protecting your investment and ensuring you get the best value, terms, and lot selection for your Sierra at Skyeview Homes purchase.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -394,28 +397,28 @@ const Services: NextPage = () => {
             </div>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                ⭐ SIERRA AT SKYEVIEW INSIDER ACCESS ⭐
+                What Buyer Representation Covers at Sierra at Skyeview
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy offers insider insight into Sierra at Skyeview Homes—with independent representation, priority lot strategies, and expert negotiation backed by trusted relationships.
+                Dr. Jan Duffy represents you at Sierra at Skyeview: she checks the builder's price against recent Skye Canyon sales, reviews the lot, and negotiates the contract.
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🚀</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Early Phase Access</h3>
-                <p className="text-gray-600">First access to new phases before public release</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Price Check</h3>
+                <p className="text-gray-600">Builder price compared with recent 89166 resales</p>
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">⚡</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Priority Treatment</h3>
-                <p className="text-gray-600">VIP status throughout the entire process</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Lot Review</h3>
+                <p className="text-gray-600">Lot premium, orientation and any SID 609 or 610 charges</p>
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🎯</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Expert Negotiation</h3>
-                <p className="text-gray-600">Premier relationship-backed negotiation power</p>
+                <p className="text-gray-600">Incentives, upgrades and contract terms</p>
               </div>
             </div>
           </div>
@@ -565,7 +568,7 @@ const Services: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6 shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">How does Dr. Jan Duffy's realtor service when buying a new home differ from builder sales agents?</h3>
                 <p className="text-gray-700">
-                  Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Her realtor service when buying a new home ensures honest market analysis, expert negotiation, and advocacy focused on protecting your investment.
+                  Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests, not the builder's. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Her realtor service when buying a new home ensures honest market analysis, expert negotiation, and advocacy focused on protecting your investment.
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6 shadow-lg">
@@ -585,7 +588,7 @@ const Services: NextPage = () => {
               Ready to Start Your Home Buying Journey?
             </h2>
             <p className="text-lg mb-8">
-              Get expert guidance from Dr. Jan Duffy and discover why so many homebuyers choose her for their new construction needs. Experience the difference that expert realtor service when buying a new home can make.
+              Get expert guidance from Dr. Jan Duffy and book a time to talk through your Sierra at Skyeview purchase.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7029034687" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
