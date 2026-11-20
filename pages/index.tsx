@@ -146,8 +146,8 @@ const Home: NextPage = () => {
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
               <Image
-                src="/skye-canyon-mountains.jpg"
-                alt="Spring Mountains above northwest Las Vegas"
+                src="/skye-canyon-master-plan.jpg"
+                alt="Skye Canyon entry monument in northwest Las Vegas"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 quality={65}
